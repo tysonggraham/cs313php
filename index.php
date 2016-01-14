@@ -10,12 +10,12 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 
-<body style="background-image:url(http://www.smiley-faces.org/wallpaper/smiley-face-wallpaper-014.jpg)">
+<body>
 
 <nav class="navbar navbar-inverse">
 	<div class="container-fluid">
     	<div class="navbar-header">
-      		<a class="navbar-brand" href="#">Kevin Andres - CS 313</a>
+      		<a class="navbar-brand" href="#">Tyson Graham - CS 313</a>
     	</div>
 		<ul class="nav navbar-nav">
   			<li class="active"><a href="#">Home</a></li>
@@ -40,11 +40,11 @@
             	<li>CSS Hater</li>
             </ul>
 
-            <p class="lead">Experience</p>
+            <p class="lead">Interests</p>
             <ul>
-            	<li>1</li>
-            	<li>2</li>
-            	<li>3</li>
+            	<li>Web Development</li>
+            	<li>Networking</li>
+            	<li>Animal Battles(e.g. snake vs squirrel)</li>
             </ul>
         </div>
         <div class="col-md-5 col-md-pull-7">
