@@ -8,7 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
-<body style="background-image:smiley.gif">
+<body style="background-image:url(smiley.gif)">
 
 <nav class="navbar navbar-inverse">
 	<div class="container-fluid">
