@@ -19,7 +19,9 @@
     	</div>
 		<ul class="nav navbar-nav">
   			<li class="active"><a href="#">Home</a></li>
-  			<li><a href="#">Assignments</a></li>
+  			<li class="active"><a href="#">Home</a></li>
+  			<li class="active"><a href="#">Home</a></li>
+  			<li><a href="#choosemyanimal">Choose My Spirit Animal</a></li>
 		</ul>
 	</div>
 </nav>
@@ -47,6 +49,7 @@
             	<li>Animal Battles(e.g. snake vs squirrel)</li>
             </ul>
         </div>
+        <div id="choosemyanimal"
         <div class="col-md-5 col-md-pull-7">
             <a href="http://www.google.com"><img class="featurette-image img-fluid center-block" src="smiley.jpg" height="35%" width="35%" alt="Generic placeholder image"></a>
         </div>
