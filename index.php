@@ -6,7 +6,7 @@
 	<script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
 </head>
 
-<body background="awe_inspiring_emtions_smiley_face_happy_hd-wallpaper-183975.jpg">
+<body background="smiley.jpg">
 
 </body>
 </html>
