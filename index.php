@@ -6,7 +6,7 @@
 	<script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
 </head>
 
-<body background="smiley.jpg">
+<body background="smiley.gif">
 
 </body>
 </html>
