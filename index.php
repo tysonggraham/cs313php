@@ -6,8 +6,8 @@
 	<script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
 </head>
 
-<body>
-	
+<body background="https://hdwallpapers.cat/wallpaper/awe_inspiring_emtions_smiley_face_happy_hd-wallpaper-183975.jpg">
+
 </body>
 </html>
 ?>
