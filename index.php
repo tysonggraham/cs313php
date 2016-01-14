@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Kevin Andres - CS 313</title>
+  <title>Tyson Graham - CS 313</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel='stylesheet' href="styles.css">
@@ -9,6 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
+
 <body style="background-image:url(http://www.smiley-faces.org/wallpaper/smiley-face-wallpaper-014.jpg)">
 
 <nav class="navbar navbar-inverse">
@@ -24,7 +25,7 @@
 </nav>
   
 <div class="container">
-	<h3>Kevin Andres - CS 313 Homepage</h3>
+	<h3>Tyson Graham - CS 313 Homepage</h3>
 
 	<hr class="featurette-divider">
 
@@ -41,32 +42,16 @@
 
             <p class="lead">Experience</p>
             <ul>
-            	<li>Cirris Systems - Software Engineer (Starting May 2015)</li>
-            	<li>Object Oriented Programming Tutor (2015-current)</li>
-            	<li>Hughes Network Systems - Software Engineering Intern - Apr 2015-Aug 2015</li>
+            	<li>1</li>
+            	<li>2</li>
+            	<li>3</li>
             </ul>
         </div>
         <div class="col-md-5 col-md-pull-7">
-            <a href="/snake.html"><img class="featurette-image img-fluid center-block" src="smiley.jpg" height="35%" width="35%" alt="Generic placeholder image"></a>
+            <a href="http://www.google.com"><img class="featurette-image img-fluid center-block" src="smiley.jpg" height="35%" width="35%" alt="Generic placeholder image"></a>
         </div>
     </div>
 </div>
 
 </body>
 </html>
-
-
-<!-- <!DOCTYPE html>
-<html>
-	<head>
-		<title>My first PHP page</title>
-	</head>
-	<body>
-		<div>
-			This is a pretty awesome page, bossman.
-
-
-
-		</div>
-	</body>
-</html> -->
