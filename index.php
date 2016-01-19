@@ -13,51 +13,6 @@
 
 <body>
 
-<nav class="navbar navbar-inverse">
-	<div class="container-fluid">
-    	<div class="navbar-header">
-      		<a class="navbar-brand" href="#">Tyson Graham - CS 313</a>
-    	</div>
-		<ul class="nav navbar-nav">
-  			<li class="active"><a href="#">Home</a></li>
-  			<li class="active"><a href="#">Assignment</a></li>
-  			<li class="active"><a href="#">Home</a></li>
-  			<li><a href="spiritAnimal.php">Guess My Spirit Animal</a></li>
-		</ul>
-	</div>
-</nav>
-  
-<div class="container">
-	<h3>Tyson Graham - CS 313 Homepage</h3>
-
-	<hr class="featurette-divider">
-
-    <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-            <h2 class="featurette-heading">About me.</h2>
-            <p class="lead">Computer Science Major</p>
-            <ul>
-            	<li>Node Devel</li>
-            	<li>Network Architecture</li>
-            	<li>C++ Enthusiast</li>
-            	<li>CSS Hater</li>
-            </ul>
-
-            <p class="lead">Interests</p>
-            <ul>
-            	<li>Web Development</li>
-            	<li><a href="https://nodejs.org/en/">Node Js</a></li>
-              <li><a href="https://laravel.com/">Laravel</a></li>
-            	<li><a href="https://www.youtube.com/watch?v=MkWTVwJEQ7c">Animal Battles(e.g. snake vs squirrel, shark vs shark)</a></li>
-            </ul>
-        </div>
-        <div id="choosemyanimal">
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-fluid center-block" src="wedding.jpg" height="35%" width="35%" alt="Generic placeholder image"></img>
-        </div>
-    </div>
-</div>
-
 </body>
 </html>
 ?>
