@@ -22,7 +22,7 @@
   			<li class="active"><a href="#">Home</a></li>
   			<li class="active"><a href="#">Assignment</a></li>
   			<li class="active"><a href="#">Home</a></li>
-  			<li><a href="spiritAnimal.php">Guess My Spirit Animal</a></li>
+  			<li><a href="#choosemyanimal">Guess My Spirit Animal</a></li>
 		</ul>
 	</div>
 </nav>
@@ -52,7 +52,7 @@
         </div>
         <div id="choosemyanimal"
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-fluid center-block" src="wedding.jpg" height="35%" width="35%" alt="Generic placeholder image"></img>
+            <a href="http://www.google.com"><img class="featurette-image img-fluid center-block" src="wedding.jpg" height="35%" width="35%" alt="Generic placeholder image"></a>
         </div>
     </div>
 </div>
