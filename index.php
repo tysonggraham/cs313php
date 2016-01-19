@@ -5,7 +5,7 @@
 </head>
 <body>
 <?php
-echo <div> This is a test<div>
+echo <div> Fixed the server error Yay<div>;
 ?>
 </body>
 </html>
