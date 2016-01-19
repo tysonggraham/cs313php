@@ -4,7 +4,9 @@
   <title>Tyson Graham - CS 313</title>
 </head>
 <body>
-test
+<?php
+<div> This is a test<div>
+?>
 </body>
 </html>
 
