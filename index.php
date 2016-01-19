@@ -35,9 +35,9 @@
     <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
             <h2 class="featurette-heading">About me.</h2>
-            <p class="lead">Computer Engineer</p>
+            <p class="lead">Computer Science Major</p>
             <ul>
-            	<li>Embedded Systems</li>
+            	<li>Node Devel</li>
             	<li>Network Architecture</li>
             	<li>C++ Enthusiast</li>
             	<li>CSS Hater</li>
@@ -46,7 +46,8 @@
             <p class="lead">Interests</p>
             <ul>
             	<li>Web Development</li>
-            	<li>Networking</li>
+            	<li><a href="https://nodejs.org/en/">Node Js</a></li>
+              <li><a href="https://laravel.com/">Laravel</a></li>
             	<li><a href="https://www.youtube.com/watch?v=MkWTVwJEQ7c">Animal Battles(e.g. snake vs squirrel, shark vs shark)</a></li>
             </ul>
         </div>
