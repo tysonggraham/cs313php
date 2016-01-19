@@ -52,7 +52,6 @@
         </div>
         <div id="choosemyanimal"
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-fluid center-block" src="wedding.jpg" height="35%" width="35%" alt="Generic placeholder image"></img>
         </div>
     </div>
 </div>
