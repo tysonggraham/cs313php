@@ -5,7 +5,7 @@
 </head>
 <body>
 <?php
-<div> This is a test<div>
+echo <div> This is a test<div>
 ?>
 </body>
 </html>
