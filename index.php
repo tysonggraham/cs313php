@@ -44,7 +44,7 @@
 					<p class="lead">Computer Science Major</p>
 					<ul>
 						<li>Node Developer</li>
-						<li>SPA Enthusiest</li>
+						<li>SPA Enthusiast</li>
 						<li>Happily Married Future Father</li>
 						<li>Lifelong Student</li>
 						<li>Discrete Math Lover</li>
