@@ -15,8 +15,8 @@
 		}
 	</script>
 </head>
-<body>
-	<div class="page grad1" id="main_page">
+<body class="grad1">
+	<div class="page" id="main_page">
 	    <nav class="navbar navbar-inverse">
 	    	<div class="container-fluid">
 	        	<div class="navbar-header">
