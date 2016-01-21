@@ -26,7 +26,7 @@
 	      			<li class="active"><a href="#">Home</a></li>
 	      			<li class="active"><a href="#">Assignment</a></li>
 	      			<li class="active"><a href="#">Home</a></li>
-	      			<li><a href="spiritAnimal.php">Guess My Spirit Animal</a></li>
+	      			<li><a href="spiritanimal.html">Guess My Spirit Animal</a></li>
 	    		</ul>
 	    	</div>
 	    </nav>
