@@ -61,42 +61,5 @@
 	              </ul>
 	        </div>
 	</div>
-    <div class="page" id="choosemyanimal">
-        <span id="CountedClicks">0 </span><br>
-        <button style="background-color: Light blue" onclick="AddClick('raccoon')">Vote</button>
-		<div id="raccoon">
-			<span></span>
-			<a></a>
-		</div>
-
-        <span id="CountedClicks">0 </span><br>
-        <button style="background-color: Light blue" onclick="AddClick('rabbit')">Vote</button>
-        <div id="rabbit">
-			<span></span>
-			<a></a>
-        </div>
-
-        <span id="CountedClicks">0 </span><br>
-		<button style="background-color: Light blue" onclick="AddClick('cat')">Vote</button>
-		<div id="cat">
-			<span></span>
-			<a></a>
-		</div>
-
-		<span id="CountedClicks">0 </span><br>
-		<button style="background-color: Light blue" onclick="AddClick('polar_bear')">Vote</button>
-		<div id="polar_bear">
-			<span></span>
-			<a></a>
-		</div>
-
-		<span id="CountedClicks">0 </span><br>
-		<button style="background-color: Light blue" onclick="AddClick('dog')">Vote</button>
-		<div id="dog">
-			<span></span>
-			<a></a>
-		</div>
-    </div>
 </body>
 </html>
-
