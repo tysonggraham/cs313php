@@ -42,7 +42,8 @@
 				</div>
 	      	</div>
 	        <div class="col-md-7 col-md-push-5">
-				<img class="featurette-image img-fluid center-block" src="raccoon.jpg" alt="Generic placeholder image"></img>
+			<img src="smiley.gif" alt="Smiley face" width="42" height="42">
+			<img class="featurette-image img-fluid center-block" src="raccoon.jpg" alt="Generic placeholder image"></img>
 				<h2 class="featurette-heading">About me.</h2>
 				<p class="lead">Computer Science Major</p>
 				<ul>
