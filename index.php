@@ -37,7 +37,7 @@
 
 	        <div class="row featurette">
 				<div class="col-md-7">
-					<img class=" featurette-image img-fluid center-block" height="360px" width="550px" src="wedding.jpg" alt="Generic placeholder image"></img>
+					<img class="picture featurette-image img-fluid center-block" height="360px" width="550px" src="wedding.jpg" alt="Generic placeholder image"></img>
 				</div>
 		        <div class="col-md-5">
 					<h2 class="featurette-heading">About me.</h2>
