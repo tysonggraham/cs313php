@@ -17,10 +17,10 @@ body {
     background-color: white;
 }
 
-.picture{
+.picture {
 	transition: width 2s height 2s;
 }
-.picture:hover{
+.picture:hover {
 	height:1500px;
 	width:1500px;
 }

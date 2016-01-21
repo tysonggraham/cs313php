@@ -9,7 +9,7 @@
 	<script>
 		var Clicks = 0 ;
 		function AddClick(animal){
-			  if()
+			  if() {
 			Clicks = Clicks + 1;
 			document.getElementById('CountedClicks').innerHTML =  Clicks ;
 		}
