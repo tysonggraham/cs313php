@@ -2,10 +2,12 @@ body {
 }
 
 .grad1 {
-   height: 200px;
-   background: red; /* For browsers that do not support gradients */
-   background: -webkit-linear-gradient(#1E90FF, #00BFFF, white); /* For Safari 5.1 to 6.0 */
-   background: -o-linear-gradient(#1E90FF, #00BFFF, white); /* For Opera 11.1 to 12.0 */
-   background: -moz-linear-gradient(#1E90FF, #00BFFF, white); /* For Firefox 3.6 to 15 */
-   background: linear-gradient(#1E90FF, #00BFFF, white); /* Standard syntax (must be last) */
+	height: 200px;
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#1E90FF, #00BFFF, white); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#1E90FF, #00BFFF, white); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#1E90FF, #00BFFF, white); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#1E90FF, #00BFFF, white); /* Standard syntax (must be last) */
+	height: 494px;
+	width: 620px;
 }
