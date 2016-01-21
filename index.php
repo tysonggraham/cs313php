@@ -16,7 +16,7 @@
 	</script>
 </head>
 <body>
-	<div class="page" id="main_page">
+	<div class="page gradient" id="main_page">
 	    <nav class="navbar navbar-inverse">
 	    	<div class="container-fluid">
 	        	<div class="navbar-header">
