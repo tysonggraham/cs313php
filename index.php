@@ -34,13 +34,10 @@
     		<h3>Tyson Graham - CS 313 Homepage</h3>
 
 	    	<hr class="featurette-divider">
-			<div class="col-md-5 col-md-7 pull-left">
-				<img class="featurette-image img-fluid center-block" src="raccoon.jpg" alt="Generic placeholder image"></img>
-			</div>
 
 	        <div class="row featurette">
 				<div class="col-md-5 col-md-pull-7">
-					<img class="featurette-image img-fluid center-block" src="raccoon.jpg" alt="Generic placeholder image"></img>
+					<img class="pull-left featurette-image img-fluid center-block" src="raccoon.jpg" alt="Generic placeholder image"></img>
 				</div>
 		        <div class="col-md-7 col-md-push-5">
 					<h2 class="featurette-heading">About me.</h2>
