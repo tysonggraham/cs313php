@@ -36,10 +36,10 @@
 	    	<hr class="featurette-divider">
 
 	        <div class="row featurette">
-				<div class="col-md-5 col-md-pull-7">
-					<img class="pull-left featurette-image img-fluid center-block" height="150px" width="125px" src="wedding.jpg" alt="Generic placeholder image"></img>
+				<div class="col-md-5">
+					<img class=" featurette-image img-fluid center-block" height="150px" width="125px" src="wedding.jpg" alt="Generic placeholder image"></img>
 				</div>
-		        <div class="col-md-7 col-md-push-5">
+		        <div class="col-md-7">
 					<h2 class="featurette-heading">About me.</h2>
 					<p class="lead">Computer Science Major</p>
 					<ul>
