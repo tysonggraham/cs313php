@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>T Graham - CS 313</title>
+	<title>Tyyyyyyyyyyyyyyyyyyyyyyyyy Graham - CS 313</title>
 	<link rel='stylesheet' href="styles.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
