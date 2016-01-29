@@ -21,7 +21,7 @@ if (isset($_COOKIE["has_voted"])) {
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 	    	<div class="navbar-header">
-	      		<a class="navbar-brand">Tastiest Burrito Toppings & Fillins'</a>
+	      		<a class="navbar-brand">Most Eligible Companions</a>
 	    	</div>
 			<ul class="nav navbar-nav">
 	  			<li class="active"><a href="results.php">Results</a></li>
@@ -31,64 +31,62 @@ if (isset($_COOKIE["has_voted"])) {
 	<div id="container">
 		<form action="results.php" method="POST">
 			<div id="lhs">
-				<h2>Favorite Meat</h2>
+				<h2>What is the most redeeming quality for a potential companion to have?</h2>
 				<hr>
 
-				<input type="radio" name="meat" value="Carne Asada"> Carne Asada<br>
-				<input type="radio" name="meat" value="Chicken"> Chicken<br>
-				<input type="radio" name="meat" value="Carnitas"> Carnitas<br>
-				<input type="radio" name="meat" value="Ground Beef"> Ground Beef<br>
-				<input type="radio" name="meat" value="Sweet Pork Barbacoa"> Barbacoa<br>
-				<input type="radio" name="meat" value="Fish"> Fish<br>
-				<input type="radio" name="meat" value="Vegetarian"> I hate meat (and America)<br>
+				<input type="radio" name="meat" value="Carne Asada"> Good Kisser<br>
+				<input type="radio" name="meat" value="Chicken"> Good Cook<br>
+				<input type="radio" name="meat" value="Carnitas"> Shares My Interests<br>
+				<input type="radio" name="meat" value="Ground Beef"> Skilled in Combat<br>
+				<input type="radio" name="meat" value="Sweet Pork Barbacoa">Good Provider<br>
+				<input type="radio" name="meat" value="Fish"> Loyal<br>
+				<input type="radio" name="meat" value="Vegetarian"> Highly Intelligent<br>
+				<input type="radio" name="meat" value="Vegetarian"> Cute Bum<br>
 				<br>
 
-				<h2>Favorite Kind of Rice</h2>
+				<h2>Which of the following is the closest thing to a perfect date?</h2>
 				<hr>
-
-				<input type="radio" name="rice" value="Spanish Rice"> Spanish Rice<br>
-				<input type="radio" name="rice" value="Cilantro Rice"> Cilantro Rice<br>
-				<input type="radio" name="rice" value="White Rice"> Plain Ole' White Rice<br>
-				<input type="radio" name="rice" value="Brown Rice"> Brown Rice<br>
-				<input type="radio" name="rice" value="No Rice"> No Rice<br>
+				<input type="radio" name="rice" value="Spanish Rice"> Going Hunting<br>
+				<input type="radio" name="rice" value="Cilantro Rice"> Teasing the Weak<br>
+				<input type="radio" name="rice" value="White Rice"> Volunteering for the poor<br>
+				<input type="radio" name="rice" value="Brown Rice"> Going Dancing<br>
+				<input type="radio" name="rice" value="No Rice"> Watching the sun go down<br>
+				<input type="radio" name="rice" value="No Rice">Eating Out of the Garbage<br>
 				<br>
 
-				<h2>Favorite Kind of Beans</h2>
+				<h2>If you had to one of these, which would you eat?</h2>
 				<hr>
-
-				<input type="radio" name="beans" value="Refried Beans"> Refried Beans<br>
-				<input type="radio" name="beans" value="Black Beans"> Black Beans<br>
-				<input type="radio" name="beans" value="Pinto Beans"> Pinto Beans<br>
-				<input type="radio" name="beans" value="No Beans"> I prefer no air to escape my derrière<br>
+				<input type="radio" name="beans" value="Pinto Beans"> Pizza<br>
+				<input type="radio" name="beans" value="Pinto Beans"> Sugar Cubes<br>
+				<input type="radio" name="beans" value="Pinto Beans"> Anything really, mostly garbage<br>
+				<input type="radio" name="beans" value="Pinto Beans"> Grubs..Acuna Matata!<br>
+				<input type="radio" name="beans" value="Refried Beans"> Elephant Seal<br>
 				<br>
 
-				<h2>Favorite Fillin' Medium </h2>
+				<h2>What is the estimated lifespan you want your companion to have?</h2>
 				<hr>
-
-				<input type="radio" name="medium" value="Thick Tortilla"> Thick Flour Tortilla<br>
-				<input type="radio" name="medium" value="Thin Tortilla"> Thin Flour Tortilla<br>
-				<input type="radio" name="medium" value="Salad"> Burrito Salad Bowl<br>
+				<input type="radio" name="medium" value="Thick Tortilla"> 1-5 years<br>
+				<input type="radio" name="medium" value="Thin Tortilla"> 10-20 years<br>
+				<input type="radio" name="medium" value="Salad"> 30-100 years<br>
+				<input type="radio" name="medium" value="Salad"> Doesn't matter because I can stuff it when it's gone.<br>
 				<br>
 
-				<h2>Tomato-ey Stuff</h2>
+				<h2>If your companion could provide you with only one thing and you could choose, what would it be?</h2>
 				<hr>
-
-				<input type="radio" name="tomato_stuff" value="Plain"> Plain old chopped up tomatoes<br>
-				<input type="radio" name="tomato_stuff" value="Pico de Gallo"> Pico de Gallo<br>
-				<input type="radio" name="tomato_stuff" value="Salsa"> Salsa-tized!<br>
-				<input type="radio" name="tomato_stuff" value="No Tomato"> No tomatoes!<br>
+				<input type="radio" name="tomato_stuff" value="Plain"> Food<br>
+				<input type="radio" name="tomato_stuff" value="Pico de Gallo"> Love<br>
+				<input type="radio" name="tomato_stuff" value="Salsa"> Warmth<br>
+				<input type="radio" name="tomato_stuff" value="No Tomato"> Riches<br>
+				<input type="radio" name="tomato_stuff" value="No Tomato"> Protection<br>
 				<br>
 				
-				<h2>Extra Fixin's</h2>
+				<h2>What kind of companion are you looking for?</h2>
 				<hr>
-
-				<input type="checkbox" name="fixings[]" value="Lettuce"> Lettuce<br>
-				<input type="checkbox" name="fixings[]" value="Sour Cream"> Sour Cream<br>
-				<input type="checkbox" name="fixings[]" value="Guacamole"> Guacamole<br>
-				<input type="checkbox" name="fixings[]" value="Cilantro"> Cilantro<br>
-				<input type="checkbox" name="fixings[]" value="Lime"> Lime<br>
-				<input type="checkbox" name="fixings[]" value="Jalapenos"> Jalepenos<br>
-				<input type="checkbox" name="fixings[]" value="Onions"> Onions<br>
+				<input type="checkbox" name="fixings[]" value="Lettuce"> Romantic/Eternal<br>
+				<input type="checkbox" name="fixings[]" value="Sour Cream"> Service Animal<br>
+				<input type="checkbox" name="fixings[]" value="Guacamole"> Someone to carry in my purse<br>
+				<input type="checkbox" name="fixings[]" value="Cilantro"> Someone to protect me<br>
+				<input type="checkbox" name="fixings[]" value="Lime"> Anything as long as its cute<br>
 				<br>
 
 				<button name="submit" value="submitted">Submit</button>
