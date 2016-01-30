@@ -24,7 +24,7 @@ if ($_POST["submit"] == "submitted")
 		$results_array = array();
 
 		//Push everything on
-		array_push($results_array, $redeemingquality, $eat, $beans, $medium, $tomato_stuff);
+		array_push($results_array, $redeemingquality, $eat, $perfectdate, $medium, $tomato_stuff);
 
 		foreach ($fixings as $item) {
 			array_push($results_array, $item);
