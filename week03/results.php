@@ -86,12 +86,13 @@ require "resultsphpheader.php";
             data.addColumn('number', 'Count');
             data.addRows([
 				['Good Kisser', redeemingqualityArray[0].Good_Kisser],
-				['Chicken',     redeemingqualityArray[0].Chicken],
-				['Carnitas',    redeemingqualityArray[0].Carnitas],
-				['Ground Beef', redeemingqualityArray[0].Ground_Beef],
-				['Barbacoa', redeemingqualityArray[0].Barbacoa],
-				['Fish',        redeemingqualityArray[0].Fish],
-				['Vegetairan',  redeemingqualityArray[0].Vegetarian]
+				['Good Cook',     redeemingqualityArray[0].Good_Cook],
+				['Shares My Interests',    redeemingqualityArray[0].Shares_My_Interests],
+				['Skilled in Combat', redeemingqualityArray[0].Skilled_In_Combat],
+				['Good Provider', redeemingqualityArray[0].Good_Provider],
+				['Loyal',        redeemingqualityArray[0].Loyal],
+				['Highly Intelligent',        redeemingqualityArray[0].Highly_Intelligent],
+				['Cute Bum',  redeemingqualityArray[0].Cute_Bum]
 
             ]);
             // Create the data table.
