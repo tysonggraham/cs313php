@@ -52,11 +52,12 @@ $lifespan = array(
 // print_r($beans);
 
 //This may cause issues with the currently existing beans variable
-$tomato_stuff = array(
-	"Plain" => substr_count($content, "Plain"),
-	"Pico_de_Gallo" => substr_count($content, "Pico de Gallo"),
-	"Salsa" => substr_count($content, "Salsa"),
-	"None" => substr($content, "None")	
+$provide = array(
+	"Food" => substr_count($content, "Food"),
+	"Love" => substr_count($content, "Love"),
+	"Warmth" => substr_count($content, "Warmth"),
+	"Riches" => substr_count($content, "Riches"),
+	"Protection" => substr($content, "Protection")	
 );
 
 // print_r($tomato_stuff);

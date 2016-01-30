@@ -71,16 +71,16 @@ if (isset($_COOKIE["has_voted"])) {
 				<input type="radio" name="lifespan" value="none"> Doesn't matter because I can stuff it when it's gone.<br>
 				<br>
 
-				<h2>Tomato-ey Stuff</h2>
+				<h2>If your companion could provide you with only one thing and you could choose, what would it be?</h2>
 				<hr>
-
-				<input type="radio" name="tomato_stuff" value="Plain"> Plain old chopped up tomatoes<br>
-				<input type="radio" name="tomato_stuff" value="Pico de Gallo"> Pico de Gallo<br>
-				<input type="radio" name="tomato_stuff" value="Salsa"> Salsa-tized!<br>
-				<input type="radio" name="tomato_stuff" value="No Tomato"> No tomatoes!<br>
+				<input type="radio" name="provide" value="Food"> Food<br>
+				<input type="radio" name="provide" value="Love"> Love<br>
+				<input type="radio" name="provide" value="Warmth"> Warmth<br>
+				<input type="radio" name="provide" value="Riches"> Riches<br>
+				<input type="radio" name="provide" value="Protection"> Protection<br>
 				<br>
-				
-				<h2>Extra Fixin's</h2>
+								
+				<h2>What kind of companions do you seek?</h2>
 				<hr>
 
 				<input type="checkbox" name="fixings[]" value="Lettuce"> Lettuce<br>

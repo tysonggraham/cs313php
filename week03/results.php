@@ -13,7 +13,7 @@ if ($_POST["submit"] == "submitted")
 		$eat = $_POST["eat"];
 		$perfectdate = $_POST["perfectdate"];
 		$lifespan = $_POST["lifespan"];
-		$tomato_stuff = $_POST["tomato_stuff"];
+		$provide = $_POST["provide"];
 
 		//The name of the file containg previous results.
 
@@ -24,7 +24,7 @@ if ($_POST["submit"] == "submitted")
 		$results_array = array();
 
 		//Push everything on
-		array_push($results_array, $redeemingquality, $eat, $perfectdate, $lifespan, $tomato_stuff);
+		array_push($results_array, $redeemingquality, $eat, $perfectdate, $lifespan, $provide);
 
 		foreach ($fixings as $item) {
 			array_push($results_array, $item);
@@ -77,7 +77,7 @@ require "resultsphpheader.php";
 	      	var eatArray = [<?php echo json_encode($eat); ?>];
 	      	var perfectdateArray = [<?php echo json_encode($perfectdate); ?>];
 	      	var lifespanArray = [<?php echo json_encode($lifespan); ?>];
-	      	var tomatoArray = [<?php  echo json_encode($tomato_stuff); ?>];
+	      	var provideArray = [<?php  echo json_encode($provide); ?>];
 	      	var fixingsArray = [<?php echo json_encode($fixings); ?>]
 
             // Create the data table.
@@ -130,13 +130,14 @@ require "resultsphpheader.php";
             ]); 
 
             var data5 = new google.visualization.DataTable();
-            data5.addColumn('string', 'Tomato Stuff');
+            data5.addColumn('string', 'Provide');
             data5.addColumn('number', 'Count');
             data5.addRows([              
-				['Plain', 		tomatoArray[0].Plain],
-				['Pico de Gallo', tomatoArray[0].Pico_de_Gallo],
-				['Salsa',  		tomatoArray[0].Salsa],
-				['None',		  	tomatoArray[0].None]
+				['Food', 		provideArray[0].Food],
+				['Love', 		provideArray[0].Love],
+				['Warmth',  	provideArray[0].Warmth],
+				['Riches',  	provideArray[0].Riches],
+				['Protection',	provideArray[0].Protection]
             ]); 
 
             var data6 = new google.visualization.DataTable();
@@ -165,15 +166,15 @@ require "resultsphpheader.php";
                            'width':400,
                            'height':300};
             // Set chart options
-            var options4 = {'title':'Preferred Lifespan',
+            var options4 = {'title':'Preferred Lifespan (Years)',
                            'width':400,
                            'height':300};
             // Set chart options
-            var options5 = {'title':'Favorite Kinds of Tomato-ey Stuff',
+            var options5 = {'title':'If your companion could provide you with only one of the following:',
                            'width':400,
                            'height':300};
             // Set chart options
-            var options6 = {'title':'Favorite Fixings',
+            var options6 = {'title':'What kinds of companions do you seek?',
                            'width':400,
                            'height':300};
 
