@@ -44,14 +44,13 @@ if (isset($_COOKIE["has_voted"])) {
 				<input type="radio" name="redeemingquality" value="Cute Bum"> Cute Bum<br>
 				<br>
 
-				<h2>Favorite Kind of Rice</h2>
+				<h2>If you had to eat one of these, which would you eat?</h2>
 				<hr>
-
-				<input type="radio" name="rice" value="Spanish Rice"> Spanish Rice<br>
-				<input type="radio" name="rice" value="Cilantro Rice"> Cilantro Rice<br>
-				<input type="radio" name="rice" value="White Rice"> Plain Ole' White Rice<br>
-				<input type="radio" name="rice" value="Brown Rice"> Brown Rice<br>
-				<input type="radio" name="rice" value="No Rice"> No Rice<br>
+				<input type="radio" name="eat" value="Pizza"> Pizza<br>
+				<input type="radio" name="eat" value="Sugar Cubes"> Sugar Cubes<br>
+				<input type="radio" name="eat" value="Garbage"> Anything really, mostly garbage<br>
+				<input type="radio" name="eat" value="Grubs"> Grubs..Acuna Matata!<br>
+				<input type="radio" name="eat" value="Elephant Seal"> Elephant Seal<br>
 				<br>
 
 				<h2>Favorite Kind of Beans</h2>

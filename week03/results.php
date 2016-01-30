@@ -10,7 +10,7 @@ if ($_POST["submit"] == "submitted")
 		//Get the user's input
 		$fixings = $_POST["fixings"];
 		$redeemingquality = $_POST["redeemingquality"];
-		$rice = $_POST["rice"];
+		$eat = $_POST["eat"];
 		$beans = $_POST["beans"];
 		$medium = $_POST["medium"];
 		$tomato_stuff = $_POST["tomato_stuff"];
@@ -24,7 +24,7 @@ if ($_POST["submit"] == "submitted")
 		$results_array = array();
 
 		//Push everything on
-		array_push($results_array, $redeemingquality, $rice, $beans, $medium, $tomato_stuff);
+		array_push($results_array, $redeemingquality, $eat, $beans, $medium, $tomato_stuff);
 
 		foreach ($fixings as $item) {
 			array_push($results_array, $item);
@@ -75,7 +75,7 @@ require "resultsphpheader.php";
           function drawChart() {
           	var redeemingqualityArray = [<?php echo json_encode($redeemingquality); ?>];
 	      	var beansArray = [<?php echo json_encode($beans); ?>];
-	      	var riceArray = [<?php echo json_encode($rices); ?>];
+	      	var eatArray = [<?php echo json_encode($eat); ?>];
 	      	var mediumsArray = [<?php echo json_encode($mediums); ?>];
 	      	var tomatoArray = [<?php  echo json_encode($tomato_stuff); ?>];
 	      	var fixingsArray = [<?php echo json_encode($fixings); ?>]
@@ -97,14 +97,14 @@ require "resultsphpheader.php";
             ]);
             // Create the data table.
             var data2 = new google.visualization.DataTable();
-            data2.addColumn('string', 'Rice');
+            data2.addColumn('string', 'Eat');
             data2.addColumn('number', 'Count');
             data2.addRows([
-				['Cilantro Rice', riceArray[0].Cilantro_Rice],
-				['Spanish Rice',  riceArray[0].Spanish_Rice],
-				['White Rice',    riceArray[0].White_Rice],
-				['Brown Rice', 	riceArray[0].Brown_Rice],
-				['No Rice',       riceArray[0].No_Rice] 
+				['Pizza',  eatArray[0].Pizza],
+				['Sugar Cubes',    eatArray[0].Sugar_Cubes],
+				['Anything really, mostly garbage', 	eatArray[0].Anything_really,_mostly_garbage],
+				['Grubs',       eatArray[0].Grubs],
+				['Elephant Seal',       eatArray[0].Elephant_Seal] 
             ]);
 
             var data3 = new google.visualization.DataTable();
