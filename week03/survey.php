@@ -34,59 +34,59 @@ if (isset($_COOKIE["has_voted"])) {
 				<h2>What is the most redeeming quality for a potential companion to have?</h2>
 				<hr>
 
-				<input type="radio" name="meat" value="Carne Asada"> Good Kisser<br>
-				<input type="radio" name="meat" value="Chicken"> Good Cook<br>
-				<input type="radio" name="meat" value="Carnitas"> Shares My Interests<br>
-				<input type="radio" name="meat" value="Ground Beef"> Skilled in Combat<br>
-				<input type="radio" name="meat" value="Sweet Pork Barbacoa">Good Provider<br>
-				<input type="radio" name="meat" value="Fish"> Loyal<br>
-				<input type="radio" name="meat" value="Vegetarian"> Highly Intelligent<br>
-				<input type="radio" name="meat" value="Vegetarian"> Cute Bum<br>
+				<input type="radio" name="redeemingquality" value="Good Kisser"> Good Kisser<br>
+				<input type="radio" name="redeemingquality" value="Good Cook"> Good Cook<br>
+				<input type="radio" name="redeemingquality" value="Shares My Interests"> Shares My Interests<br>
+				<input type="radio" name="redeemingquality" value="Skilled in Combat"> Skilled in Combat<br>
+				<input type="radio" name="redeemingquality" value="Good Provider">Good Provider<br>
+				<input type="radio" name="redeemingquality" value="Loyal"> Loyal<br>
+				<input type="radio" name="redeemingquality" value="Highly Intelligent"> Highly Intelligent<br>
+				<input type="radio" name="redeemingquality" value="Cute Bum"> Cute Bum<br>
 				<br>
 
 				<h2>Which of the following is the closest thing to a perfect date?</h2>
 				<hr>
-				<input type="radio" name="rice" value="Spanish Rice"> Going Hunting<br>
-				<input type="radio" name="rice" value="Cilantro Rice"> Teasing the Weak<br>
-				<input type="radio" name="rice" value="White Rice"> Volunteering for the poor<br>
-				<input type="radio" name="rice" value="Brown Rice"> Going Dancing<br>
-				<input type="radio" name="rice" value="No Rice"> Watching the sun go down<br>
-				<input type="radio" name="rice" value="No Rice">Eating Out of the Garbage<br>
+				<input type="radio" name="perfectdate" value="Going Hunting"> Going Hunting<br>
+				<input type="radio" name="perfectdate" value="Teasing the Weak"> Teasing the Weak<br>
+				<input type="radio" name="perfectdate" value="Volunteering for the poor"> Volunteering for the poor<br>
+				<input type="radio" name="perfectdate" value="Going Dancing"> Going Dancing<br>
+				<input type="radio" name="perfectdate" value="Watching the sun go down"> Watching the sun go down<br>
+				<input type="radio" name="perfectdate" value="Eating Out of the Garbage">Eating Out of the Garbage<br>
 				<br>
 
-				<h2>If you had to one of these, which would you eat?</h2>
+				<h2>If you had to eat one of these, which would you eat?</h2>
 				<hr>
-				<input type="radio" name="beans" value="Pinto Beans"> Pizza<br>
-				<input type="radio" name="beans" value="Pinto Beans"> Sugar Cubes<br>
-				<input type="radio" name="beans" value="Pinto Beans"> Anything really, mostly garbage<br>
-				<input type="radio" name="beans" value="Pinto Beans"> Grubs..Acuna Matata!<br>
-				<input type="radio" name="beans" value="Refried Beans"> Elephant Seal<br>
+				<input type="radio" name="eat" value="Pizza"> Pizza<br>
+				<input type="radio" name="eat" value="Sugar Cubes"> Sugar Cubes<br>
+				<input type="radio" name="eat" value="Garbage"> Anything really, mostly garbage<br>
+				<input type="radio" name="eat" value="Grubs"> Grubs..Acuna Matata!<br>
+				<input type="radio" name="eat" value="Elephant Seal"> Elephant Seal<br>
 				<br>
 
 				<h2>What is the estimated lifespan you want your companion to have?</h2>
 				<hr>
-				<input type="radio" name="medium" value="Thick Tortilla"> 1-5 years<br>
-				<input type="radio" name="medium" value="Thin Tortilla"> 10-20 years<br>
-				<input type="radio" name="medium" value="Salad"> 30-100 years<br>
-				<input type="radio" name="medium" value="Salad"> Doesn't matter because I can stuff it when it's gone.<br>
+				<input type="radio" name="lifespan" value="1 to 5"> 1-5 years<br>
+				<input type="radio" name="lifespan" value="10 to 20"> 10-20 years<br>
+				<input type="radio" name="lifespan" value="30 to 100"> 30-100 years<br>
+				<input type="radio" name="lifespan" value="none"> Doesn't matter because I can stuff it when it's gone.<br>
 				<br>
 
 				<h2>If your companion could provide you with only one thing and you could choose, what would it be?</h2>
 				<hr>
-				<input type="radio" name="tomato_stuff" value="Plain"> Food<br>
-				<input type="radio" name="tomato_stuff" value="Pico de Gallo"> Love<br>
-				<input type="radio" name="tomato_stuff" value="Salsa"> Warmth<br>
-				<input type="radio" name="tomato_stuff" value="No Tomato"> Riches<br>
-				<input type="radio" name="tomato_stuff" value="No Tomato"> Protection<br>
+				<input type="radio" name="provide" value="Food"> Food<br>
+				<input type="radio" name="provide" value="Love"> Love<br>
+				<input type="radio" name="provide" value="Warmth"> Warmth<br>
+				<input type="radio" name="provide" value="Riches"> Riches<br>
+				<input type="radio" name="provide" value="Protection"> Protection<br>
 				<br>
 				
 				<h2>What kind of companion are you looking for?</h2>
 				<hr>
-				<input type="checkbox" name="fixings[]" value="Lettuce"> Romantic/Eternal<br>
-				<input type="checkbox" name="fixings[]" value="Sour Cream"> Service Animal<br>
-				<input type="checkbox" name="fixings[]" value="Guacamole"> Someone to carry in my purse<br>
-				<input type="checkbox" name="fixings[]" value="Cilantro"> Someone to protect me<br>
-				<input type="checkbox" name="fixings[]" value="Lime"> Anything as long as its cute<br>
+				<input type="checkbox" name="attribute[]" value="Romantic"> Romantic/Eternal<br>
+				<input type="checkbox" name="attribute[]" value="Service"> Service Animal<br>
+				<input type="checkbox" name="attribute[]" value="Purse"> Someone to carry in my purse<br>
+				<input type="checkbox" name="attribute[]" value="Protect"> Someone to protect me<br>
+				<input type="checkbox" name="attribute[]" value="Cute"> Anything as long as its cute<br>
 				<br>
 
 				<button name="submit" value="submitted">Submit</button>
