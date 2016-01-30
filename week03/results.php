@@ -153,19 +153,19 @@ require "resultsphpheader.php";
             ]); 
 
             // Set chart options
-            var options = {'title':'Favorite Meats',
+            var options = {'title':'Favorite Trait',
                            'width':400,
                            'height':300};
             // Set chart options
-            var options2 = {'title':'Favorite Kinds of Rice',
+            var options2 = {'title':'If You Had to Eat One of These..',
                            'width':400,
                            'height':300};
             // Set chart options
-            var options3 = {'title':'Favorite Kinds of Beans',
+            var options3 = {'title':'Your Idea of the Perfect Date',
                            'width':400,
                            'height':300};
             // Set chart options
-            var options4 = {'title':'Favorite Kinds of Tortilla',
+            var options4 = {'title':'Preferred Lifespan',
                            'width':400,
                            'height':300};
             // Set chart options
