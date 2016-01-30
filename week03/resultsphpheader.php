@@ -31,11 +31,13 @@ $eat = array(
 // print_r($rices);
 
 //This may cause issues with the currently existing beans variable
-$beans = array(
-	"Refried_Beans" => substr_count($content, "Refried Beans"),
-	"Black_Beans" => substr_count($content, "Black Beans"),
-	"Pinto_Beans" => substr_count($content, "Pinto Beans"),
-	"No_Beans" => substr_count($content, "No Beans")
+$perfectdate = array(
+	"Going_Hunting" => substr_count($content, "Refried Beans"),
+	"Teasing_the_Weak" => substr_count($content, "Teasing the Weak"),
+	"Volunteering_for_the_poor" => substr_count($content, "Volunteering for the poor"),
+	"Going_Dancing" => substr_count($content, "Going Dancing"),
+	"Watching_the_sun_go_down" => substr_count($content, "Watching the sun go down"),
+	"Eating_Out_of_the_Garbage" => substr_count($content, "Eating Out of the Garbage")
 );
 
 // print_r($beans);

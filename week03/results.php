@@ -11,7 +11,7 @@ if ($_POST["submit"] == "submitted")
 		$fixings = $_POST["fixings"];
 		$redeemingquality = $_POST["redeemingquality"];
 		$eat = $_POST["eat"];
-		$beans = $_POST["beans"];
+		$perfectdate = $_POST["perfectdate"];
 		$medium = $_POST["medium"];
 		$tomato_stuff = $_POST["tomato_stuff"];
 
@@ -40,7 +40,7 @@ if ($_POST["submit"] == "submitted")
 		setcookie("has_voted", "1", mktime().time()+60*60*24*365*10);
 	}
 }
-
+//Include the setting of variables
 require "resultsphpheader.php";
 
  ?>
@@ -74,8 +74,8 @@ require "resultsphpheader.php";
           // draws it.
           function drawChart() {
           	var redeemingqualityArray = [<?php echo json_encode($redeemingquality); ?>];
-	      	var beansArray = [<?php echo json_encode($beans); ?>];
 	      	var eatArray = [<?php echo json_encode($eat); ?>];
+	      	var perfectdateArray = [<?php echo json_encode($perfectdate); ?>];
 	      	var mediumsArray = [<?php echo json_encode($mediums); ?>];
 	      	var tomatoArray = [<?php  echo json_encode($tomato_stuff); ?>];
 	      	var fixingsArray = [<?php echo json_encode($fixings); ?>]
@@ -108,13 +108,15 @@ require "resultsphpheader.php";
             ]);
 
             var data3 = new google.visualization.DataTable();
-            data3.addColumn('string', 'Beans');
+            data3.addColumn('string', 'Perfectdate');
             data3.addColumn('number', 'Count');
             data3.addRows([              
-				['Refried Beans',  beansArray[0].Refried_Beans],
-				['Black Beans',    beansArray[0].Black_Beans],
-				['Pinto Beans', 	beansArray[0].Pinto_Beans],
-				['No Beans',       beansArray[0].No_Beans] 
+				['Going Hunting',  beansArray[0].Going_Hunting],
+				['Teasing the Weak',    beansArray[0].Teasing_the_Weak],
+				['Volunteering for the poor', 	beansArray[0].Volunteering_for_the_poor],
+				['Going Dancing',       beansArray[0].Going_Dancing],
+				['Watching the sun go down',       beansArray[0].Watching_the_sun_go_down] ,
+				['Eating Out of the Garbage',       beansArray[0].Eating_Out_of_the_Garbage] 
             ]);              
 
             var data4 = new google.visualization.DataTable();

@@ -53,13 +53,14 @@ if (isset($_COOKIE["has_voted"])) {
 				<input type="radio" name="eat" value="Elephant Seal"> Elephant Seal<br>
 				<br>
 
-				<h2>Favorite Kind of Beans</h2>
+				<h2>Which of the following is the closest thing to a perfect date?</h2>
 				<hr>
-
-				<input type="radio" name="beans" value="Refried Beans"> Refried Beans<br>
-				<input type="radio" name="beans" value="Black Beans"> Black Beans<br>
-				<input type="radio" name="beans" value="Pinto Beans"> Pinto Beans<br>
-				<input type="radio" name="beans" value="No Beans"> I prefer no air to escape my derrière<br>
+				<input type="radio" name="perfectdate" value="Going Hunting"> Going Hunting<br>
+				<input type="radio" name="perfectdate" value="Teasing the Weak"> Teasing the Weak<br>
+				<input type="radio" name="perfectdate" value="Volunteering for the poor"> Volunteering for the poor<br>
+				<input type="radio" name="perfectdate" value="Going Dancing"> Going Dancing<br>
+				<input type="radio" name="perfectdate" value="Watching the sun go down"> Watching the sun go down<br>
+				<input type="radio" name="perfectdate" value="Eating Out of the Garbage">Eating Out of the Garbage<br>
 				<br>
 
 				<h2>Favorite Fillin' Medium </h2>
