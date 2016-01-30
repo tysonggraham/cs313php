@@ -32,7 +32,7 @@ $eat = array(
 
 //This may cause issues with the currently existing beans variable
 $perfectdate = array(
-	"Going_Hunting" => substr_count($content, "Refried Beans"),
+	"Going_Hunting" => substr_count($content, "Going Hunting"),
 	"Teasing_the_Weak" => substr_count($content, "Teasing the Weak"),
 	"Volunteering_for_the_poor" => substr_count($content, "Volunteering for the poor"),
 	"Going_Dancing" => substr_count($content, "Going Dancing"),
