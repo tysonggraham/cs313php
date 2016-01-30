@@ -111,12 +111,12 @@ require "resultsphpheader.php";
             data3.addColumn('string', 'Perfectdate');
             data3.addColumn('number', 'Count');
             data3.addRows([              
-				['Going Hunting',  beansArray[0].Going_Hunting],
-				['Teasing the Weak',    beansArray[0].Teasing_the_Weak],
-				['Volunteering for the poor', 	beansArray[0].Volunteering_for_the_poor],
-				['Going Dancing',       beansArray[0].Going_Dancing],
-				['Watching the sun go down',       beansArray[0].Watching_the_sun_go_down] ,
-				['Eating Out of the Garbage',       beansArray[0].Eating_Out_of_the_Garbage] 
+				['Going Hunting',  perfectdateArray[0].Going_Hunting],
+				['Teasing the Weak',    perfectdateArray[0].Teasing_the_Weak],
+				['Volunteering for the poor', 	perfectdateArray[0].Volunteering_for_the_poor],
+				['Going Dancing',       perfectdateArray[0].Going_Dancing],
+				['Watching the sun go down',       perfectdateArray[0].Watching_the_sun_go_down] ,
+				['Eating Out of the Garbage',       perfectdateArray[0].Eating_Out_of_the_Garbage] 
             ]);              
 
             var data4 = new google.visualization.DataTable();
