@@ -12,7 +12,7 @@ if ($_POST["submit"] == "submitted")
 		$redeemingquality = $_POST["redeemingquality"];
 		$eat = $_POST["eat"];
 		$perfectdate = $_POST["perfectdate"];
-		$medium = $_POST["medium"];
+		$lifespan = $_POST["lifespan"];
 		$tomato_stuff = $_POST["tomato_stuff"];
 
 		//The name of the file containg previous results.
@@ -24,7 +24,7 @@ if ($_POST["submit"] == "submitted")
 		$results_array = array();
 
 		//Push everything on
-		array_push($results_array, $redeemingquality, $eat, $perfectdate, $medium, $tomato_stuff);
+		array_push($results_array, $redeemingquality, $eat, $perfectdate, $lifespan, $tomato_stuff);
 
 		foreach ($fixings as $item) {
 			array_push($results_array, $item);
@@ -76,7 +76,7 @@ require "resultsphpheader.php";
           	var redeemingqualityArray = [<?php echo json_encode($redeemingquality); ?>];
 	      	var eatArray = [<?php echo json_encode($eat); ?>];
 	      	var perfectdateArray = [<?php echo json_encode($perfectdate); ?>];
-	      	var mediumsArray = [<?php echo json_encode($mediums); ?>];
+	      	var lifespanArray = [<?php echo json_encode($lifespan); ?>];
 	      	var tomatoArray = [<?php  echo json_encode($tomato_stuff); ?>];
 	      	var fixingsArray = [<?php echo json_encode($fixings); ?>]
 
@@ -120,12 +120,13 @@ require "resultsphpheader.php";
             ]);              
 
             var data4 = new google.visualization.DataTable();
-            data4.addColumn('string', 'Tortilla');
+            data4.addColumn('string', 'Lifespan');
             data4.addColumn('number', 'Count');
             data4.addRows([              
-				['Thick Tortilla', mediumsArray[0].Thick_Tortilla],
-				['Thin Tortilla', mediumsArray[0].Thin_Tortilla],
-				['Salad',  		mediumsArray[0].Salad]
+				['1 to 5', lifespanArray[0].1_to_5],
+				['10 to 20', lifespanArray[0].10_to_20],
+				['30 to 100', lifespanArray[0].30_to_100],
+				['none',  		lifespanArray[0].None]
             ]); 
 
             var data5 = new google.visualization.DataTable();

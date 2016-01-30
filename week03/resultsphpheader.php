@@ -42,10 +42,11 @@ $perfectdate = array(
 
 // print_r($beans);
 
-$mediums = array(
-	"Thick_Tortilla" => substr_count($content, "Thick Tortilla"),
-	"Thin_Tortilla" => substr_count($content, "Thin Tortilla"),
-	"Salad" => substr_count($content, "Salad")	
+$lifespan = array(
+	"1_to_5" => substr_count($content, "1 to 5"),
+	"10_to_20" => substr_count($content, "10 to 20"),
+	"30_to_100" => substr_count($content, "30 to 100"),
+	"None" => substr_count($content, "none")	
 );
 
 // print_r($beans);

@@ -63,12 +63,12 @@ if (isset($_COOKIE["has_voted"])) {
 				<input type="radio" name="perfectdate" value="Eating Out of the Garbage">Eating Out of the Garbage<br>
 				<br>
 
-				<h2>Favorite Fillin' Medium </h2>
+				<h2>What is the estimated lifespan you want your companion to have?</h2>
 				<hr>
-
-				<input type="radio" name="medium" value="Thick Tortilla"> Thick Flour Tortilla<br>
-				<input type="radio" name="medium" value="Thin Tortilla"> Thin Flour Tortilla<br>
-				<input type="radio" name="medium" value="Salad"> Burrito Salad Bowl<br>
+				<input type="radio" name="lifespan" value="1 to 5"> 1-5 years<br>
+				<input type="radio" name="lifespan" value="10 to 20"> 10-20 years<br>
+				<input type="radio" name="lifespan" value="30 to 100"> 30-100 years<br>
+				<input type="radio" name="lifespan" value="none"> Doesn't matter because I can stuff it when it's gone.<br>
 				<br>
 
 				<h2>Tomato-ey Stuff</h2>
