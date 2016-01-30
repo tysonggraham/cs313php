@@ -7,8 +7,8 @@ $content = file_get_contents("./$resultsfile", true);
 
 //Build my results arrays
 
-$meats = array(
-	"Carne_Asada" => substr_count($content, "Carne Asada"),
+$redeemingquality = array(
+	"Good_Kisser" => substr_count($content, "Good Kisser Asada"),
 	"Chicken" => substr_count($content, "Chicken"),
 	"Carnitas" => substr_count($content, "Carnitas"),
 	"Ground_Beef" => substr_count($content, "Ground Beef"),

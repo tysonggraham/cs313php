@@ -31,16 +31,17 @@ if (isset($_COOKIE["has_voted"])) {
 	<div id="container">
 		<form action="results.php" method="POST">
 			<div id="lhs">
-				<h2>Favorite Meat</h2>
+				<h2>Favorite Quality</h2>
 				<hr>
 
-				<input type="radio" name="meat" value="Carne Asada"> Carne Asada<br>
-				<input type="radio" name="meat" value="Chicken"> Chicken<br>
-				<input type="radio" name="meat" value="Carnitas"> Carnitas<br>
-				<input type="radio" name="meat" value="Ground Beef"> Ground Beef<br>
-				<input type="radio" name="meat" value="Sweet Pork Barbacoa"> Barbacoa<br>
-				<input type="radio" name="meat" value="Fish"> Fish<br>
-				<input type="radio" name="meat" value="Vegetarian"> I hate meat (and America)<br>
+				<input type="radio" name="redeemingquality" value="Good Kisser"> Good Kisser<br>
+				<input type="radio" name="redeemingquality" value="Good Cook"> Good Cook<br>
+				<input type="radio" name="redeemingquality" value="Shares My Interests"> Shares My Interests<br>
+				<input type="radio" name="redeemingquality" value="Skilled in Combat"> Skilled in Combat<br>
+				<input type="radio" name="redeemingquality" value="Good Provider">Good Provider<br>
+				<input type="radio" name="redeemingquality" value="Loyal"> Loyal<br>
+				<input type="radio" name="redeemingquality" value="Highly Intelligent"> Highly Intelligent<br>
+				<input type="radio" name="redeemingquality" value="Cute Bum"> Cute Bum<br>
 				<br>
 
 				<h2>Favorite Kind of Rice</h2>

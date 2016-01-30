@@ -9,7 +9,7 @@ if ($_POST["submit"] == "submitted")
 
 		//Get the user's input
 		$fixings = $_POST["fixings"];
-		$meat = $_POST["meat"];
+		$redeemingquality = $_POST["redeemingquality"];
 		$rice = $_POST["rice"];
 		$beans = $_POST["beans"];
 		$medium = $_POST["medium"];
@@ -24,7 +24,7 @@ if ($_POST["submit"] == "submitted")
 		$results_array = array();
 
 		//Push everything on
-		array_push($results_array, $meat, $rice, $beans, $medium, $tomato_stuff);
+		array_push($results_array, $redeemingquality, $rice, $beans, $medium, $tomato_stuff);
 
 		foreach ($fixings as $item) {
 			array_push($results_array, $item);
@@ -73,7 +73,7 @@ require "resultsphpheader.php";
           // instantiates the pie chart, passes in the data and
           // draws it.
           function drawChart() {
-          	var meatsArray = [<?php echo json_encode($meats); ?>];
+          	var redeemingqualityArray = [<?php echo json_encode($redeemingquality); ?>];
 	      	var beansArray = [<?php echo json_encode($beans); ?>];
 	      	var riceArray = [<?php echo json_encode($rices); ?>];
 	      	var mediumsArray = [<?php echo json_encode($mediums); ?>];
@@ -82,16 +82,16 @@ require "resultsphpheader.php";
 
             // Create the data table.
             var data = new google.visualization.DataTable();
-            data.addColumn('string', 'Meat');    
+            data.addColumn('string', 'redeemingquality');    
             data.addColumn('number', 'Count');
             data.addRows([
-				['Carne Asada', meatsArray[0].Carne_Asada],
-				['Chicken',     meatsArray[0].Chicken],
-				['Carnitas',    meatsArray[0].Carnitas],
-				['Ground Beef', meatsArray[0].Ground_Beef],
-				['Barbacoa', meatsArray[0].Barbacoa],
-				['Fish',        meatsArray[0].Fish],
-				['Vegetairan',  meatsArray[0].Vegetarian]
+				['Good Kisser', redeemingqualityArray[0].Good_Kisser],
+				['Chicken',     redeemingqualityArray[0].Chicken],
+				['Carnitas',    redeemingqualityArray[0].Carnitas],
+				['Ground Beef', redeemingqualityArray[0].Ground_Beef],
+				['Barbacoa', redeemingqualityArray[0].Barbacoa],
+				['Fish',        redeemingqualityArray[0].Fish],
+				['Vegetairan',  redeemingqualityArray[0].Vegetarian]
 
             ]);
             // Create the data table.
