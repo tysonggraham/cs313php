@@ -21,7 +21,7 @@ if (isset($_COOKIE["has_voted"])) {
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 	    	<div class="navbar-header">
-	      		<a class="navbar-brand">Most Eligible Companions</a>
+	      		<a class="navbar-brand">Tastiest Burrito Toppings & Fillins'</a>
 	    	</div>
 			<ul class="nav navbar-nav">
 	  			<li class="active"><a href="results.php">Results</a></li>
@@ -31,62 +31,64 @@ if (isset($_COOKIE["has_voted"])) {
 	<div id="container">
 		<form action="results.php" method="POST">
 			<div id="lhs">
-				<h2>What is the most redeeming quality for a potential companion to have?</h2>
+				<h2>Favorite Meat</h2>
 				<hr>
 
-				<input type="radio" name="redeemingquality" value="Good Kisser"> Good Kisser<br>
-				<input type="radio" name="redeemingquality" value="Good Cook"> Good Cook<br>
-				<input type="radio" name="redeemingquality" value="Shares My Interests"> Shares My Interests<br>
-				<input type="radio" name="redeemingquality" value="Skilled in Combat"> Skilled in Combat<br>
-				<input type="radio" name="redeemingquality" value="Good Provider">Good Provider<br>
-				<input type="radio" name="redeemingquality" value="Loyal"> Loyal<br>
-				<input type="radio" name="redeemingquality" value="Highly Intelligent"> Highly Intelligent<br>
-				<input type="radio" name="redeemingquality" value="Cute Bum"> Cute Bum<br>
+				<input type="radio" name="meat" value="Carne Asada"> Carne Asada<br>
+				<input type="radio" name="meat" value="Chicken"> Chicken<br>
+				<input type="radio" name="meat" value="Carnitas"> Carnitas<br>
+				<input type="radio" name="meat" value="Ground Beef"> Ground Beef<br>
+				<input type="radio" name="meat" value="Sweet Pork Barbacoa"> Barbacoa<br>
+				<input type="radio" name="meat" value="Fish"> Fish<br>
+				<input type="radio" name="meat" value="Vegetarian"> I hate meat (and America)<br>
 				<br>
 
-				<h2>Which of the following is the closest thing to a perfect date?</h2>
+				<h2>Favorite Kind of Rice</h2>
 				<hr>
-				<input type="radio" name="perfectdate" value="Going Hunting"> Going Hunting<br>
-				<input type="radio" name="perfectdate" value="Teasing the Weak"> Teasing the Weak<br>
-				<input type="radio" name="perfectdate" value="Volunteering for the poor"> Volunteering for the poor<br>
-				<input type="radio" name="perfectdate" value="Going Dancing"> Going Dancing<br>
-				<input type="radio" name="perfectdate" value="Watching the sun go down"> Watching the sun go down<br>
-				<input type="radio" name="perfectdate" value="Eating Out of the Garbage">Eating Out of the Garbage<br>
+
+				<input type="radio" name="rice" value="Spanish Rice"> Spanish Rice<br>
+				<input type="radio" name="rice" value="Cilantro Rice"> Cilantro Rice<br>
+				<input type="radio" name="rice" value="White Rice"> Plain Ole' White Rice<br>
+				<input type="radio" name="rice" value="Brown Rice"> Brown Rice<br>
+				<input type="radio" name="rice" value="No Rice"> No Rice<br>
 				<br>
 
-				<h2>If you had to eat one of these, which would you eat?</h2>
+				<h2>Favorite Kind of Beans</h2>
 				<hr>
-				<input type="radio" name="eat" value="Pizza"> Pizza<br>
-				<input type="radio" name="eat" value="Sugar Cubes"> Sugar Cubes<br>
-				<input type="radio" name="eat" value="Garbage"> Anything really, mostly garbage<br>
-				<input type="radio" name="eat" value="Grubs"> Grubs..Acuna Matata!<br>
-				<input type="radio" name="eat" value="Elephant Seal"> Elephant Seal<br>
+
+				<input type="radio" name="beans" value="Refried Beans"> Refried Beans<br>
+				<input type="radio" name="beans" value="Black Beans"> Black Beans<br>
+				<input type="radio" name="beans" value="Pinto Beans"> Pinto Beans<br>
+				<input type="radio" name="beans" value="No Beans"> I prefer no air to escape my derrière<br>
 				<br>
 
-				<h2>What is the estimated lifespan you want your companion to have?</h2>
+				<h2>Favorite Fillin' Medium </h2>
 				<hr>
-				<input type="radio" name="lifespan" value="1 to 5"> 1-5 years<br>
-				<input type="radio" name="lifespan" value="10 to 20"> 10-20 years<br>
-				<input type="radio" name="lifespan" value="30 to 100"> 30-100 years<br>
-				<input type="radio" name="lifespan" value="none"> Doesn't matter because I can stuff it when it's gone.<br>
+
+				<input type="radio" name="medium" value="Thick Tortilla"> Thick Flour Tortilla<br>
+				<input type="radio" name="medium" value="Thin Tortilla"> Thin Flour Tortilla<br>
+				<input type="radio" name="medium" value="Salad"> Burrito Salad Bowl<br>
 				<br>
 
-				<h2>If your companion could provide you with only one thing and you could choose, what would it be?</h2>
+				<h2>Tomato-ey Stuff</h2>
 				<hr>
-				<input type="radio" name="provide" value="Food"> Food<br>
-				<input type="radio" name="provide" value="Love"> Love<br>
-				<input type="radio" name="provide" value="Warmth"> Warmth<br>
-				<input type="radio" name="provide" value="Riches"> Riches<br>
-				<input type="radio" name="provide" value="Protection"> Protection<br>
+
+				<input type="radio" name="tomato_stuff" value="Plain"> Plain old chopped up tomatoes<br>
+				<input type="radio" name="tomato_stuff" value="Pico de Gallo"> Pico de Gallo<br>
+				<input type="radio" name="tomato_stuff" value="Salsa"> Salsa-tized!<br>
+				<input type="radio" name="tomato_stuff" value="No Tomato"> No tomatoes!<br>
 				<br>
 				
-				<h2>What kind of companion are you looking for?</h2>
+				<h2>Extra Fixin's</h2>
 				<hr>
-				<input type="checkbox" name="attribute[]" value="Romantic"> Romantic/Eternal<br>
-				<input type="checkbox" name="attribute[]" value="Service"> Service Animal<br>
-				<input type="checkbox" name="attribute[]" value="Purse"> Someone to carry in my purse<br>
-				<input type="checkbox" name="attribute[]" value="Protect"> Someone to protect me<br>
-				<input type="checkbox" name="attribute[]" value="Cute"> Anything as long as its cute<br>
+
+				<input type="checkbox" name="fixings[]" value="Lettuce"> Lettuce<br>
+				<input type="checkbox" name="fixings[]" value="Sour Cream"> Sour Cream<br>
+				<input type="checkbox" name="fixings[]" value="Guacamole"> Guacamole<br>
+				<input type="checkbox" name="fixings[]" value="Cilantro"> Cilantro<br>
+				<input type="checkbox" name="fixings[]" value="Lime"> Lime<br>
+				<input type="checkbox" name="fixings[]" value="Jalapenos"> Jalepenos<br>
+				<input type="checkbox" name="fixings[]" value="Onions"> Onions<br>
 				<br>
 
 				<button name="submit" value="submitted">Submit</button>
