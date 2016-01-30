@@ -20,12 +20,12 @@ $redeemingquality = array(
 
 // print_r($meats);
 
-$rices = array(
-	"Cilantro_Rice" => substr_count($content, "Cilantro Rice"),
-	"Spanish_Rice" => substr_count($content, "Spanish Rice"),
-	"White_Rice" => substr_count($content, "White Rice"),
-	"Brown_Rice" => substr_count($content, "Brown Rice"),
-	"No_Rice" => substr_count($content, "No Rice")
+$eat = array(
+	"Pizza" => substr_count($content, "Pizza"),
+	"Sugar_Cubes" => substr_count($content, "Sugar Cubes"),
+	"Garbage" => substr_count($content, "Garbage"),
+	"Grubs" => substr_count($content, "Grubs"),
+	"Elephant_Seal" => substr_count($content, "Elephant Seal")
 );
 
 // print_r($rices);

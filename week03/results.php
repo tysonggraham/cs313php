@@ -102,7 +102,7 @@ require "resultsphpheader.php";
             data2.addRows([
 				['Pizza',  eatArray[0].Pizza],
 				['Sugar Cubes',    eatArray[0].Sugar_Cubes],
-				['Anything really, mostly garbage', 	eatArray[0].Anything_really,_mostly_garbage],
+				['Garbage', 	eatArray[0].Garbage],
 				['Grubs',       eatArray[0].Grubs],
 				['Elephant Seal',       eatArray[0].Elephant_Seal] 
             ]);
