@@ -9,12 +9,13 @@ $content = file_get_contents("./$resultsfile", true);
 
 $redeemingquality = array(
 	"Good_Kisser" => substr_count($content, "Good Kisser"),
-	"Chicken" => substr_count($content, "Chicken"),
-	"Carnitas" => substr_count($content, "Carnitas"),
-	"Ground_Beef" => substr_count($content, "Ground Beef"),
-	"Barbacoa" => substr_count($content, "Barbacoa"),
-	"Fish" => substr_count($content, "Fish"),
-	"Vegetarian" => substr_count($content, "Vegetarian")
+	"Good_Cook" => substr_count($content, "Good Cook"),
+	"Shares_My_Interests" => substr_count($content, "Shares My Interests"),
+	"Skilled_In_Combat" => substr_count($content, "Skilled in Combat"),
+	"Good_Provider" => substr_count($content, "Good Provider"),
+	"Loyal" => substr_count($content, "Loyal"),
+	"Highly_Intelligent" => substr_count($content, "Highly Intelligent"),
+	"Cute_Bum" => substr_count($content, "Cute Bum")
 );
 
 // print_r($meats);
