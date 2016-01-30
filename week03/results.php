@@ -123,9 +123,9 @@ require "resultsphpheader.php";
             data4.addColumn('string', 'Lifespan');
             data4.addColumn('number', 'Count');
             data4.addRows([              
-				['1 to 5', lifespanArray[0].1_to_5],
-				['10 to 20', lifespanArray[0].10_to_20],
-				['30 to 100', lifespanArray[0].30_to_100],
+				['1 to 5', lifespanArray[0].five_years],
+				['10 to 20', lifespanArray[0].twenty_years],
+				['30 to 100', lifespanArray[0].hundred_years],
 				['none',  		lifespanArray[0].None]
             ]); 
 

@@ -43,9 +43,9 @@ $perfectdate = array(
 // print_r($beans);
 
 $lifespan = array(
-	"1_to_5" => substr_count($content, "1 to 5"),
-	"10_to_20" => substr_count($content, "10 to 20"),
-	"30_to_100" => substr_count($content, "30 to 100"),
+	"five_years" => substr_count($content, "1 to 5"),
+	"twenty_years" => substr_count($content, "10 to 20"),
+	"hundred_years" => substr_count($content, "30 to 100"),
 	"None" => substr_count($content, "none")	
 );
 
