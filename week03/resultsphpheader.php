@@ -62,14 +62,12 @@ $provide = array(
 
 // print_r($tomato_stuff);
 
-$fixings = array(
-	"Lettuce" => substr_count($content, "Lettuce"),
-	"Sour_Cream" => substr_count($content, "Sour Cream"),
-	"Guacamole" => substr_count($content, "Guacamole"),
-	"Cilantro" => substr_count($content, "Lettuce"),
-	"Lime" => substr_count($content, "Lime"),
-	"Jalapenos" => substr_count($content, "Jalapenos"),
-	"Onions" => substr_count($content, "Onions")
+$qualities = array(
+	"Romantic" => substr_count($content, "Romantic"),
+	"Service" => substr_count($content, "Service"),
+	"Purse" => substr_count($content, "Purse"),
+	"Protect" => substr_count($content, "Protect"),
+	"Cute" => substr_count($content, "Cute")
 );
 // print_r($fixings);
 

@@ -8,7 +8,7 @@ if ($_POST["submit"] == "submitted")
 		//All the post data goes here
 
 		//Get the user's input
-		$fixings = $_POST["fixings"];
+		$qualities = $_POST["qualities"];
 		$redeemingquality = $_POST["redeemingquality"];
 		$eat = $_POST["eat"];
 		$perfectdate = $_POST["perfectdate"];
@@ -26,7 +26,7 @@ if ($_POST["submit"] == "submitted")
 		//Push everything on
 		array_push($results_array, $redeemingquality, $eat, $perfectdate, $lifespan, $provide);
 
-		foreach ($fixings as $item) {
+		foreach ($qualities as $item) {
 			array_push($results_array, $item);
 		}
 
@@ -78,7 +78,7 @@ require "resultsphpheader.php";
 	      	var perfectdateArray = [<?php echo json_encode($perfectdate); ?>];
 	      	var lifespanArray = [<?php echo json_encode($lifespan); ?>];
 	      	var provideArray = [<?php  echo json_encode($provide); ?>];
-	      	var fixingsArray = [<?php echo json_encode($fixings); ?>]
+	      	var qualitiesArray = [<?php echo json_encode($qualities); ?>]
 
             // Create the data table.
             var data = new google.visualization.DataTable();
@@ -141,16 +141,14 @@ require "resultsphpheader.php";
             ]); 
 
             var data6 = new google.visualization.DataTable();
-            data6.addColumn('string', 'Rice');
+            data6.addColumn('string', 'Qualities');
             data6.addColumn('number', 'Count');
             data6.addRows([              
-				['Lettuce', 		fixingsArray[0].Lettuce],
-				['Sour Cream',    fixingsArray[0].Sour_Cream],
-				['Guacamole',    	fixingsArray[0].Guacamole],
-				['Cilantro', 		fixingsArray[0].Cilantro],
-				['Lime',        	fixingsArray[0].Lime],
-				['Jalapenos',  	fixingsArray[0].Jalapenos],
-				['Onions', 		fixingsArray[0].Onions]
+				['Romantic', 		qualitiesArray[0].Romantic],
+				['Service',    qualitiesArray[0].Service],
+				['Purse',    	qualitiesArray[0].Purse],
+				['Protect', 		qualitiesArray[0].Protect],
+				['Cute',        	qualitiesArray[0].Cute]
             ]); 
 
             // Set chart options

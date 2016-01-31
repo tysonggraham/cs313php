@@ -79,17 +79,16 @@ if (isset($_COOKIE["has_voted"])) {
 				<input type="radio" name="provide" value="Riches"> Riches<br>
 				<input type="radio" name="provide" value="Protection"> Protection<br>
 				<br>
-								
+
 				<h2>What kind of companions do you seek?</h2>
 				<hr>
 
-				<input type="checkbox" name="fixings[]" value="Lettuce"> Lettuce<br>
-				<input type="checkbox" name="fixings[]" value="Sour Cream"> Sour Cream<br>
-				<input type="checkbox" name="fixings[]" value="Guacamole"> Guacamole<br>
-				<input type="checkbox" name="fixings[]" value="Cilantro"> Cilantro<br>
-				<input type="checkbox" name="fixings[]" value="Lime"> Lime<br>
-				<input type="checkbox" name="fixings[]" value="Jalapenos"> Jalepenos<br>
-				<input type="checkbox" name="fixings[]" value="Onions"> Onions<br>
+				<input type="checkbox" name="qualities[]" value="Just A Fling"> Just A Fling<br>
+				<input type="checkbox" name="qualities[]" value="Romantic/Eternal"> Romantic/Eternal<br>
+				<input type="checkbox" name="qualities[]" value="Service Animal"> Service Animal<br>
+				<input type="checkbox" name="qualities[]" value="Purse"> Something to Carry in my Purse<br>
+				<input type="checkbox" name="qualities[]" value="Protect"> Someone to protect me<br>
+				<input type="checkbox" name="qualities[]" value="Cute">  Anything as long as its cute<br>
 				<br>
 
 				<button name="submit" value="submitted">Submit</button>
