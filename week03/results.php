@@ -207,6 +207,7 @@ require "resultsphpheader.php";
 
 <h2>Voting Results</h2>
 
+
 <div class="c-wrapper">
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
