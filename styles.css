@@ -25,16 +25,11 @@ body {
 	width:1500px;
 }
 
-div.c-wrapper{
-    width: 80%; /* for example */
-    margin: auto;
-}
-
 .carousel-inner {
-	margin: 0 auto;
+	text-align: center;
 }
 
-.carousel-inner > .item {
-    margin: 0 auto;
+div .chart_div {
+	width:500px !important; 
+	margin: 0 auto !important;
 }
-
