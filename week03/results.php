@@ -172,23 +172,23 @@ require "resultsphpheader.php";
                            'width':400,
                            'height':300};
             // Set chart options
-            var options6 = {'title':'What kinds of companions do you seek?',
+			var options6 = {'title':'What kinds of companions do you seek?',
                            'width':400,
                            'height':300};
 
-            // Instantiate and draw our chart, passing in some options.
-            var chart = new google.visualization.PieChart(document.getElementById('chart_div1'));
-            chart.draw(data, options);
-            var chart2 = new google.visualization.PieChart(document.getElementById('chart_div2'));
-            chart2.draw(data2, options2);
-            var chart3 = new google.visualization.PieChart(document.getElementById('chart_div3'));
-            chart3.draw(data3, options3);0
-            var chart4 = new google.visualization.PieChart(document.getElementById('chart_div4'));
-            chart4.draw(data4, options4);
-            var chart5 = new google.visualization.PieChart(document.getElementById('chart_div5'));
-            chart5.draw(data5, options5);
-            var chart6 = new google.visualization.BarChart(document.getElementById('chart_div6'));
-            chart6.draw(data6, options6);
+			// Instantiate and draw our chart, passing in some options.
+			var chart = new google.visualization.PieChart(document.getElementById('chart_div1'));
+			chart.draw(data, options);
+			var chart2 = new google.visualization.PieChart(document.getElementById('chart_div2'));
+			chart2.draw(data2, options2);
+			var chart3 = new google.visualization.PieChart(document.getElementById('chart_div3'));
+			chart3.draw(data3, options3);0
+			var chart4 = new google.visualization.PieChart(document.getElementById('chart_div4'));
+			chart4.draw(data4, options4);
+			var chart5 = new google.visualization.BarChart(document.getElementById('chart_div5'));
+			chart5.draw(data5, options5);
+			var chart6 = new google.visualization.BarChart(document.getElementById('chart_div6'));
+			chart6.draw(data6, options6);
 
           }
   </script> 
@@ -198,7 +198,7 @@ require "resultsphpheader.php";
 <nav class="navbar navbar-inverse">
 	<div class="container-fluid">
     	<div class="navbar-header">
-      		<a class="navbar-brand">Tastiest Burrito Toppings & Fillins' Results</a>
+      		<a class="navbar-brand">CompanionFinder Survey Results</a>
     	</div>
 		<ul class="nav navbar-nav">
   			<li class="active"><a href="results.php">Results</a></li>

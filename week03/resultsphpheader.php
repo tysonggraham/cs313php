@@ -57,7 +57,7 @@ $provide = array(
 	"Love" => substr_count($content, "Love"),
 	"Warmth" => substr_count($content, "Warmth"),
 	"Riches" => substr_count($content, "Riches"),
-	"Protection" => substr($content, "Protection")	
+	"Protection" => substr($content, "Protection")
 );
 
 // print_r($tomato_stuff);

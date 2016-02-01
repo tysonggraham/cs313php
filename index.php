@@ -17,7 +17,7 @@
 	    		<ul class="nav navbar-nav">
 	      			<li class="active"><a href="#">Home</a></li>
 	      			<li class="active"><a href="assignments.html">Assignments</a></li>
-	      			<li><a href="spiritanimal.html">Guess My Spirit Animal</a></li>
+	      			<li><a href="www.spiritanimal.info/spirit-animal-quiz/">Guess My Spirit Animal</a></li>
 	    		</ul>
 	    	</div>
 	    </nav>
