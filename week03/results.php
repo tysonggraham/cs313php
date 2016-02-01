@@ -221,7 +221,7 @@ require "resultsphpheader.php";
 		</ol>
 
 		<!-- Wrapper for slides -->
-		<div class="carousel-inner centered" role="listbox">
+		<div class="carousel-inner" role="listbox">
 			<!-- I wanted to center these, but I couldn't figure out the CSS... -->
 			<div class="item active">
 				<div id="chart_div1"></div>
