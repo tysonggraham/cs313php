@@ -30,6 +30,10 @@ div.c-wrapper{
     margin: auto;
 }
 
+.carousel-inner {
+	margin: 0 auto;
+}
+
 .carousel-inner > .item {
     margin: 0 auto;
 }
