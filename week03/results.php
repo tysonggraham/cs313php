@@ -93,7 +93,6 @@ require "resultsphpheader.php";
 				['Loyal',        redeemingqualityArray[0].Loyal],
 				['Highly Intelligent',        redeemingqualityArray[0].Highly_Intelligent],
 				['Cute Bum',  redeemingqualityArray[0].Cute_Bum]
-
             ]);
             // Create the data table.
             var data2 = new google.visualization.DataTable();
@@ -208,54 +207,56 @@ require "resultsphpheader.php";
 
 <h2>Voting Results</h2>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-	<!-- Indicators -->
-	<ol class="carousel-indicators">
-		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		<li data-target="#myCarousel" data-slide-to="1"></li>
-		<li data-target="#myCarousel" data-slide-to="2"></li>
-		<li data-target="#myCarousel" data-slide-to="3"></li>
-		<li data-target="#myCarousel" data-slide-to="4"></li>
-		<li data-target="#myCarousel" data-slide-to="5"></li>
-	</ol>
+<div class="c-wrapper">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
+			<li data-target="#myCarousel" data-slide-to="5"></li>
+		</ol>
 
-	<!-- Wrapper for slides -->
-	<div class="carousel-inner centered" role="listbox">
-		<!-- I wanted to center these, but I couldn't figure out the CSS... -->
-		<div class="item active">
-			<div id="chart_div1"></div>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner centered" role="listbox">
+			<!-- I wanted to center these, but I couldn't figure out the CSS... -->
+			<div class="item active">
+				<div id="chart_div1"></div>
+			</div>
+
+			<div class="item">
+				<div id="chart_div2"></div>
+			</div>
+
+			<div class="item">
+				<div id="chart_div3"></div>
+			</div>
+
+			<div class="item">
+				<div id="chart_div4"></div>
+			</div>
+
+			<div class="item">
+				<div id="chart_div5"></div>
+			</div>
+
+			<div class="item">
+				<div id="chart_div6"></div>
+			</div>
 		</div>
 
-		<div class="item">
-			<div id="chart_div2"></div>
-		</div>
-
-		<div class="item">
-			<div id="chart_div3"></div>
-		</div>
-
-		<div class="item">
-			<div id="chart_div4"></div>
-		</div>
-
-		<div class="item">
-			<div id="chart_div5"></div>
-		</div>
-
-		<div class="item">
-			<div id="chart_div6"></div>
-		</div>
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
 	</div>
-
-	<!-- Left and right controls -->
-	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-	</a>
-	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-	</a>
 </div>
 </body>
 </html>
