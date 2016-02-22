@@ -5,7 +5,7 @@ function loadDatabase()
 
   $dbHost = "localhost";
   $dbPort = "3306";
-  $dbUser = "root";
+  $dbUser = "tyson";
   $dbPassword = "Changomas1";
 
      $dbName = "mydb";

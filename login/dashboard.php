@@ -143,6 +143,7 @@ html, body {
 </script>
 </head>
 <body>
+	<br /><a href='./listUsers.php'>View All Users</a>
 	<br /><a href='./compatibility_survey/survey.php'>Compatibility Survey</a>
 	<br /><a href='/logout.php'>Log Out</a>
 	<div id="floating-panel">
