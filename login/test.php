@@ -1,4 +1,5 @@
 <?php
+include("openShiftConnection.php");
 	require "password.php";
 	session_start();
 	

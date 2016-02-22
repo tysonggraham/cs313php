@@ -1,4 +1,4 @@
-<?php include("openShiftConnection.php") ?>
+<?php include("openShiftConnection.php"); ?>
 <!DOCTYPE html>
 <html>
 <head>
