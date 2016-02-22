@@ -2,20 +2,21 @@
 include("openShiftConnection.php");
 	require "password.php";
 	session_start();
+	$db = loadDatabase(); 
 	
-	//DB configuration Constants
-	define('_HOST_NAME_', 'localhost');
-	define('_USER_NAME_', 'root');
-	define('_DB_PASSWORD', 'Changomas1');
-	define('_DATABASE_NAME_', 'mydb');
+	// //DB configuration Constants
+	// define('_HOST_NAME_', 'localhost');
+	// define('_USER_NAME_', 'root');
+	// define('_DB_PASSWORD', 'Changomas1');
+	// define('_DATABASE_NAME_', 'mydb');
 	
-	//PDO Database Connection
-	try {
-		$databaseConnection = new PDO('mysql:host='._HOST_NAME_.';dbname='._DATABASE_NAME_, _USER_NAME_, _DB_PASSWORD);
-		$databaseConnection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	} catch(PDOException $e) {
-		echo 'ERROR: ' . $e->getMessage();
-	}
+	// //PDO Database Connection
+	// try {
+	// 	$db = new PDO('mysql:host='._HOST_NAME_.';dbname='._DATABASE_NAME_, _USER_NAME_, _DB_PASSWORD);
+	// 	$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	// } catch(PDOException $e) {
+	// 	echo 'ERROR: ' . $e->getMessage();
+	// }
 	
 	if(isset($_POST['submit'])){
 		$errMsg = '';
@@ -31,7 +32,7 @@ include("openShiftConnection.php");
 		
 		
 		if($errMsg == ''){
-			$records = $databaseConnection->prepare('SELECT * FROM users WHERE email = :email');
+			$records = $db->prepare('SELECT * FROM users WHERE email = :email');
 			$records->bindParam(':email', $email);
 			$records->execute();
 			$results = $records->fetch(PDO::FETCH_ASSOC);
