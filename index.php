@@ -88,6 +88,7 @@ function loadDatabase()
 					<p class="lead">Interests</p>
 					<ul>
 						<li>Web Development</li>
+						<li><a href="login/test.php">test</a></li>
 						<li><a href="https://nodejs.org/en/">Node Js</a></li>
 						<li><a href="https://laravel.com/">Laravel</a></li>
 						<li><a href="https://www.youtube.com/watch?v=MkWTVwJEQ7c">Animal Battles(e.g. snake vs squirrel, shark vs shark)</a></li>
