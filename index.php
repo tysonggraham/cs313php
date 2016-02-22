@@ -1,7 +1,7 @@
 <?
 try
 {
-   $use 'tyson'
+   $use = 'tyson';
    $password = 'Changomas1'; 
    $db = new PDO('mysql:host=localhost;dbname=mydb', $user, $password);
 }
