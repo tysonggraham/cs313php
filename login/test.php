@@ -3,7 +3,7 @@ include("openShiftConnection.php");
 	require "password.php";
 	session_start();
 	$db = loadDatabase(); 
-	$status = $conn->getAttribute(PDO::ATTR_CONNECTION_STATUS);
+	$status = $db->getAttribute(PDO::ATTR_CONNECTION_STATUS);
 	echo $status;
 	if(isset($_POST['submit'])){
 		$errMsg = '';
