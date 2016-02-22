@@ -12,6 +12,6 @@ $vote_cnt=$_POST['vote_cnt'];
 $address=$_POST['address'];
 // $pic=$_POST['pic'];
 mysql_query("INSERT INTO users(first, last, password, phone, email, job_name, is_human, vote_cnt, address)VALUES('$fname', '$lname', '$password', '$phone', '$email', '$job_name', '$is_human', '$vote_cnt', '$address')");
-header("location: index.php?remarks=success");
+header("location: test.php?remarks=success");
 // mysql_close($con);
 ?>
