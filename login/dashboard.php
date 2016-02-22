@@ -141,7 +141,7 @@ html, body {
 </script>
 </head>
 <body>
-	<br /><a href='/compatibility_survey/survey.php'>Compatibility Survey</a>
+	<br /><a href='login/compatibility_survey/survey.php'>Compatibility Survey</a>
 	<br /><a href='/logout.php'>Log Out</a>
 	<div id="floating-panel">
 	<b>Origin: </b>
