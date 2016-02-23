@@ -18,7 +18,7 @@
       var h=document.forms["reg"]["is_human"].value;
       var i=document.forms["reg"]["vote_cnt"].value;
       var j=document.forms["reg"]["address"].value;
-      var k=document.forms["reg"]["pic"].value;
+      // var k=document.forms["reg"]["pic"].value;
 
       if ((a==null || a=="") && (b==null || b=="") && (c==null || c=="") && (d==null || d=="") && (e==null || e=="") && (f==null || f==""))
       {
@@ -70,11 +70,11 @@
         alert("Address must be filled out");
         return false;
       }
-       if (k ==null || k =="")
-      {
-        alert("Image must be filled out");
-        return false;
-      }
+      // if (k ==null || k =="")
+      // {
+      //   alert("Image must be filled out");
+      //   return false;
+      // }
     }
     document.getElementById("uploadBtn").on('change', function () {
         document.getElementById("uploadFile").value = this.value;
@@ -140,13 +140,13 @@
         <td><div align="right">Address:</div></td>
         <td><input type="text" name="address" /></td>
       </tr>
-      <tr>
+<!--       <tr>
 
         <td><div align="right">Picture:</div></td>
         <td><input id="uploadFile" placeholder="Choose File" disabled="disabled" /><div class="fileUpload btn btn-primary"><span>Upload</span>
             <input id="uploadBtn" type="file" class="upload" name="pic" /></div>
         </td>
-      </tr>
+      </tr> -->
       <tr>
         <td><div align="right"></div></td>
         <td><input name="submit" type="submit" value="Submit" /></td>
