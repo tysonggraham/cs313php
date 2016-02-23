@@ -1,5 +1,12 @@
 <html>
 <head>
+  <link rel="stylesheet" href="registrationStyles.css">
+<script type="text/javascript">
+  document.getElementById("uploadBtn").onchange = function () {
+      document.getElementById("uploadFile").value = this.value;
+  };
+</script>
+
   <script type="text/javascript">
     function validateForm()
     {
@@ -12,7 +19,7 @@
       var h=document.forms["reg"]["is_human"].value;
       var i=document.forms["reg"]["vote_cnt"].value;
       var j=document.forms["reg"]["address"].value;
-      // var h=document.forms["reg"]["pic"].value;
+      var k=document.forms["reg"]["pic"].value;
 
       if ((a==null || a=="") && (b==null || b=="") && (c==null || c=="") && (d==null || d=="") && (e==null || e=="") && (f==null || f==""))
       {
@@ -62,6 +69,11 @@
       if (j==null || j=="")
       {
         alert("Address must be filled out");
+        return false;
+      }
+       if (k ==null || k =="")
+      {
+        alert("Image must be filled out");
         return false;
       }
     }
@@ -124,10 +136,13 @@
         <td><div align="right">Address:</div></td>
         <td><input type="text" name="address" /></td>
       </tr>
-<!--       <tr>
+      <tr>
+
         <td><div align="right">Picture:</div></td>
-        <td><input type="text" name="pic" /></td>
-      </tr> -->
+        <td><input id="uploadFile" placeholder="Choose File" disabled="disabled" /><div class="fileUpload btn btn-primary"><span>Upload</span>
+            <input id="uploadBtn" type="file" class="upload" /></div>
+        </td>
+      </tr>
       <tr>
         <td><div align="right"></div></td>
         <td><input name="submit" type="submit" value="Submit" /></td>
