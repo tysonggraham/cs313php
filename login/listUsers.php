@@ -13,7 +13,7 @@
 <div class="container">
   <h2>Basic Table</h2>
   <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>            
-  <table class="table">
+  <table class="table table-striped table-bordered table-responsive">
     <thead>
       <tr>
         <th>Firstname</th>
@@ -44,6 +44,12 @@ foreach ($results as $result) {
 </tbody>
 </table>
 <script>
+
+<?php $db = loadDatabase();
+$sql = "SELECT id, first, last, email, password, address, vote_cnt FROM users ORDER BY vote_cnt DESC";
+$query = $db->query($sql);
+$results = $query->fetchAll(PDO::FETCH_OBJ);
+?>
   $('.gonna_work').on('click', function(){
     console.log('this')
     console.log($(this))
