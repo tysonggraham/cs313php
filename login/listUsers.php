@@ -37,6 +37,7 @@ foreach ($results as $result) {
   <td><?php echo $result->password; ?></td>
   <td><?php echo $result->email; ?></td>
   <td><span class="glyphicon glyphicon-plus"></span></td>
+  <td><span class="glyphicon glyphicon-minus"></span></td>
 <?php
 }
 ?>
