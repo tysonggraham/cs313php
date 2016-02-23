@@ -45,7 +45,10 @@ foreach ($results as $result) {
 </tbody>
 </table>
 <script>
-  var gonnawork =document.getElementById('gonna_work').data('id');
-  console.log('gonnawork');
-  console.log(gonnawork);
+  document.getElementById('gonnawork').on('click', function(){
+    var gonnawork =document.getElementById('gonna_work').data('id');
+    console.log('gonnawork');
+    console.log(gonnawork);
+  }
+</script>
 </div>
