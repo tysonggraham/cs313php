@@ -5,12 +5,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="registrationStyles.css">
-  <script type="text/javascript">
-    document.getElementById("uploadBtn").onchange = function () {
-        document.getElementById("uploadFile").value = this.value;
-        document.getElementById("uploadFile").innerHTML = this.value;
-    };
-  </script>
 
   <script type="text/javascript">
     function validateForm()
@@ -82,6 +76,11 @@
         return false;
       }
     }
+    document.getElementById("uploadBtn").on('change', function () {
+        document.getElementById("uploadFile").value = this.value;
+        document.getElementById("uploadFile").html = this.value;
+    });
+
   </script>
 </head>
 
