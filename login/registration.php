@@ -76,10 +76,10 @@
       //   return false;
       // }
     }
-    document.getElementById("uploadBtn").on('change', function () {
-        document.getElementById("uploadFile").value = this.value;
-        document.getElementById("uploadFile").html = this.value;
-    });
+    // document.getElementById("uploadBtn").on('change', function () {
+    //     document.getElementById("uploadFile").value = this.value;
+    //     document.getElementById("uploadFile").html = this.value;
+    // });
 
   </script>
 </head>

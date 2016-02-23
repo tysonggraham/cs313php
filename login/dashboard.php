@@ -52,7 +52,6 @@ function parseAddress ($address) {
 
 session_start();
 echo 'Welcome '.$_SESSION['email'] . "\r\n";;
-
 $addr1 = "1521 1st Ave, Seattle, WA";
 $addr2 = "1301 Alaskan Way, Seattle, WA";
 
@@ -145,6 +144,7 @@ html, body {
 <body>
 	<br /><a href='./listUsers.php'>View All Users</a>
 	<br /><a href='./compatibility_survey/survey.php'>Compatibility Survey</a>
+	<br /><a href='./editProfile.php'>Edit Profile</a>
 	<br /><a href='/logout.php'>Log Out</a>
 	<div id="floating-panel">
 	<b>Origin: </b>
