@@ -25,25 +25,27 @@
     <tbody>
 
 <?php $db = loadDatabase();
-$sql = "SELECT first, last, email, password, address, vote_cnt FROM users ORDER BY vote_cnt DESC";
+$sql = "SELECT id, first, last, email, password, address, vote_cnt FROM users ORDER BY vote_cnt DESC";
 $query = $db->query($sql);
 $results = $query->fetchAll(PDO::FETCH_OBJ);
 foreach ($results as $result) {
 ?>
 <tr>
-  <td><?php echo $result->address; ?></td>
   <td><?php echo $result->first; ?></td>
   <td><?php echo $result->last; ?></td>
+  <td><?php echo $result->address; ?></td>
   <td><?php echo $result->password; ?></td>
   <td><?php echo $result->email; ?></td>
   <td><?php echo $result->vote_cnt; ?></td>
-  <td><span class="glyphicon glyphicon-plus"></span></td>
+  <td><span id = "gonna_work" data-id =<?php $result->id ?>; class="glyphicon glyphicon-plus"></span></td>
   <td><span class="glyphicon glyphicon-minus"></span></td>
 <?php
 }
 ?>
 </tbody>
 </table>
-
-
+<script>
+  var gonnawork =document.getElementById('gonna_work').data('id');
+  console.log('gonnawork');
+  console.log(gonnawork);
 </div>
