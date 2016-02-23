@@ -36,7 +36,7 @@ foreach ($results as $result) {
   <td><?php echo $result->password; ?></td>
   <td><?php echo $result->email; ?></td>
   <td><?php echo $result->vote_cnt; ?></td>
-  <td><span data-id =<?php $result->id ?>; class="gonna_work glyphicon glyphicon-plus"></span></td>
+  <td><span data-id =<?php echo $result->id ?>; class="gonna_work glyphicon glyphicon-plus"></span></td>
   <td><span class="glyphicon glyphicon-minus"></span></td>
 <?php
 }
