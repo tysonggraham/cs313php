@@ -25,7 +25,7 @@
     <tbody>
 
 <?php $db = loadDatabase();
-$sql = "SELECT first, last, email, password, address FROM users";
+$sql = "SELECT first, last, email, password, address, vote_cnt FROM users";
 $query = $db->query($sql);
 $results = $query->fetchAll(PDO::FETCH_OBJ);
 foreach ($results as $result) {
@@ -36,6 +36,7 @@ foreach ($results as $result) {
   <td><?php echo $result->last; ?></td>
   <td><?php echo $result->password; ?></td>
   <td><?php echo $result->email; ?></td>
+  <td><?php echo $result->vote_cnt; ?></td>
   <td><span class="glyphicon glyphicon-plus"></span></td>
   <td><span class="glyphicon glyphicon-minus"></span></td>
 <?php
