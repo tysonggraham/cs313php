@@ -49,6 +49,6 @@ foreach ($results as $result) {
     var gonnawork =document.getElementById('gonna_work').data('id');
     console.log('gonnawork');
     console.log(gonnawork);
-  }
+  });
 </script>
 </div>
