@@ -37,7 +37,7 @@ foreach ($results as $result) {
   <td><?php echo $result->password; ?></td>
   <td><?php echo $result->email; ?></td>
   <td><?php echo $result->vote_cnt; ?></td>
-  <td><span class = "gonna_work" data-id =<?php $result->id ?>; class="glyphicon glyphicon-plus"></span></td>
+  <td><span data-id =<?php $result->id ?>; class="gonna_work glyphicon glyphicon-plus"></span></td>
   <td><span class="glyphicon glyphicon-minus"></span></td>
 <?php
 }
@@ -45,7 +45,7 @@ foreach ($results as $result) {
 </tbody>
 </table>
 <script>
-  $('#gonnawork').on('click', function(){
+  $('#gonna_work').on('click', function(){
     var gonnawork = this.attr("#data-id");
     console.log('gonnawork');
     console.log(gonnawork);
