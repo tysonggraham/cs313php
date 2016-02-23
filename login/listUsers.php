@@ -8,8 +8,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
-
-
 <div class="container">
   <h2>Basic Table</h2>
   <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>            
@@ -24,12 +22,13 @@
     <tbody>
 
 <?php $db = loadDatabase();
-$sql = "SELECT id, first, last, email, password, address, vote_cnt FROM users ORDER BY vote_cnt DESC";
+$sql = "SELECT id, first, last, email, password, address, vote_cnt, bio FROM users ORDER BY vote_cnt DESC";
 $query = $db->query($sql);
 $results = $query->fetchAll(PDO::FETCH_OBJ);
 foreach ($results as $result) {
 ?>
 <tr>
+  <td><button class="btn btn-primary accordion-toggle" data-toggle="collapse" data-target=".collapseRow">View Bio</button>
   <td><?php echo $result->first; ?></td>
   <td><?php echo $result->last; ?></td>
   <td><?php echo $result->address; ?></td>
@@ -38,6 +37,15 @@ foreach ($results as $result) {
   <td><?php echo $result->vote_cnt; ?></td>
   <td><span data-id =<?php echo $result->id ?>; class="gonna_work glyphicon glyphicon-plus"></span></td>
   <td><span class="glyphicon glyphicon-minus"></span></td>
+</tr>
+<tr>
+  <td></td>
+  <td colspan="5">
+    <div class="bio collapseRow collapse">
+      <?php echo $result->bio; ?> <br/>
+    </div>
+  </td>
+</tr>
 <?php
 }
 ?>
