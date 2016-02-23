@@ -45,6 +45,8 @@ foreach ($results as $result) {
 </table>
 <script>
   $('.gonna_work').on('click', function(){
+    console.log('this')
+    console.log(this)
     var gonnawork = this.data("id");
     console.log('gonnawork');
     console.log(gonnawork);
