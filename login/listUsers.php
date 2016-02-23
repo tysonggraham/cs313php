@@ -25,7 +25,7 @@
     <tbody>
 
 <?php $db = loadDatabase();
-$sql = "SELECT first, last, email, password, address, vote_cnt FROM users";
+$sql = "SELECT first, last, email, password, address, vote_cnt FROM users ORDER BY vote_cnt DESC";
 $query = $db->query($sql);
 $results = $query->fetchAll(PDO::FETCH_OBJ);
 foreach ($results as $result) {
