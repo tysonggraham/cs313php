@@ -12,7 +12,7 @@ $is_human=$_POST['newis_human'];
 $vote_cnt=$_POST['newvote_cnt'];
 $address=$_POST['newaddress'];
 // $pic=$_POST['pic'];
-$sql = "UPDATE users SET (first=$fname, last=$lname, password=$password, phone=$phone, job_name=$email, is_human=$is_human, vote_cnt=$vote_cnt, address=$address) WHERE email=$email";
+$sql = "UPDATE users SET first=$fname, last=$lname, password=$password, phone=$phone, job_name=$job_name, is_human=$is_human, vote_cnt=$vote_cnt, address=$address WHERE email=$email";
 $query = $db->query($sql);
 header("location: test.php?remarks=success");
 ?>
