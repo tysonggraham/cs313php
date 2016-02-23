@@ -1,11 +1,12 @@
 <html>
 <head>
   <link rel="stylesheet" href="registrationStyles.css">
-<script type="text/javascript">
-  document.getElementById("uploadBtn").onchange = function () {
-      document.getElementById("uploadFile").value = this.value;
-  };
-</script>
+  <script type="text/javascript">
+    document.getElementById("uploadBtn").onchange = function () {
+        document.getElementById("uploadFile").value = this.value;
+        document.getElementById("uploadFile").innerHTML = this.value;
+    };
+  </script>
 
   <script type="text/javascript">
     function validateForm()
@@ -140,7 +141,7 @@
 
         <td><div align="right">Picture:</div></td>
         <td><input id="uploadFile" placeholder="Choose File" disabled="disabled" /><div class="fileUpload btn btn-primary"><span>Upload</span>
-            <input id="uploadBtn" type="file" class="upload" /></div>
+            <input id="uploadBtn" type="file" class="upload" name="pic" /></div>
         </td>
       </tr>
       <tr>
