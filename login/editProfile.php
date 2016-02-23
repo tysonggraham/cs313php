@@ -13,7 +13,6 @@
       var b=document.forms["reg"]["newlname"].value;
       var c=document.forms["reg"]["newpassword"].value;
       var d=document.forms["reg"]["newphone"].value;
-      var f=document.forms["reg"]["newemail"].value;
       var g=document.forms["reg"]["newjob_name"].value;
       var h=document.forms["reg"]["newis_human"].value;
       var i=document.forms["reg"]["newvote_cnt"].value;
@@ -43,11 +42,6 @@
       if (d==null || d=="")
       {
         alert("address must be filled out");
-        return false;
-      }
-      if (f==null || f=="")
-      {
-        alert("email must be filled out");
         return false;
       }
       if (g==null || g=="")
@@ -119,10 +113,6 @@
       <tr>
         <td><div align="right">Phone:</div></td>
         <td><input type="text" name="newphone" /></td>
-      </tr>
-      <tr>
-        <td><div align="right">email:</div></td>
-        <td><input type="text" name="newemail" /></td>
       </tr>
       <tr>
         <td><div align="right">Job Name:</div></td>
