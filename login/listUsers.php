@@ -8,7 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <style>
-html { 
+div.container { 
 background-attachment: fixed;
 background: url(http://i.imgur.com/DQ59KbW.jpg) no-repeat center center fixed; 
     -o-background-size: cover;
