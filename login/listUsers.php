@@ -1,20 +1,4 @@
-<?php include("openShiftConnection.php"); 
-
-// function makeTable($db, $table, $columns){
-//     $numFields = count($columns)-1;
-//     $query = 'SELECT * FROM '.$table;
-//     $result = $db->query($query);
-
-//     while ($arrayResult = mysql_fetch_array($result)){
-//         echo '<tr>';
-//             for ($i = 0; $i <= $numFields; $i++){ //2nd for loop
-//                 echo '<td>'.$arrayResult[$columns[$i]].'</td>';
-//             }
-//         echo '</tr>';
-//     }
-// }
-
-?>
+<?php include("openShiftConnection.php"); ?>
 
 <!DOCTYPE html>
 <html>
@@ -52,7 +36,7 @@ foreach ($results as $result) {
   <td><?php echo $result->last; ?></td>
   <td><?php echo $result->password; ?></td>
   <td><?php echo $result->email; ?></td>
-
+  <td><span class="glyphicon glyphicon-plus"></span></td>
 <?php
 }
 ?>
