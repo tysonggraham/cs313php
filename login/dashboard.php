@@ -124,7 +124,7 @@ html, body {
     <nav class="navbar navbar-inverse">
 	<div class="container-fluid">
     	<div class="navbar-header">
-      		<a class="navbar-brand" href="#"><?php echo $_SESSION['email'];?></a>
+      		<a class="navbar-brand" href="#"><?php echo Welcome . " " . $_SESSION['email'];?></a>
     	</div>
 		<ul class="nav navbar-nav">
   			<li class="active"><a href="#">Home</a></li>
@@ -163,7 +163,8 @@ else
 	echo 'Bad address.';
 }
 ?>
-	<div>
+	<div style:"display:block;
+    margin:auto;">
 	<b>Origin: </b>
 	<select id="start">
 		<option value="<?php echo $addr1; ?>">rexburg1</option>
