@@ -116,7 +116,7 @@ html, body {
 			console.log(response);
 	    if (status === google.maps.DirectionsStatus.OK) {
 			directionsDisplay.setDirections(response);
-			$('#milesDistance').append(response.routes[0].legs[0].distance.value / 1609.34).toFixed(2);
+			$('#milesDistance').append((response.routes[0].legs[0].distance.value / 1609.34).toFixed(2));
 			$('#metersDistance').append(response.routes[0].legs[0].distance.value);
 	    } else {
 			window.alert('Directions request failed due to ' + status);

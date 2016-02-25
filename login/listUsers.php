@@ -9,16 +9,10 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <style>
 div.container { 
-background-attachment: fixed;
-background: url(http://i.imgur.com/DQ59KbW.jpg) no-repeat center center fixed; 
-    -o-background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
 }
 </head>
 
-<div class="container">
+<div>
   <h2>Potential Companions Page</h2>
   <p>These are all of the lovely companions you can interact with. Happy hunting! You can view their bio, vote them up, vote them down, and even contact them using their emails below:</p>            
   <table class="table table-responsive">
