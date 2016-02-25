@@ -71,7 +71,22 @@ include("openShiftConnection.php");
 	</style>
 </head>
 <body bgcolor="#FFFFFF">
-	
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+      <div class="navbar-header">
+          <a class="navbar-brand" href="#"><?php echo Welcome . " " . $_SESSION['email'];?></a>
+      </div>
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="http://php-tysonggraham.rhcloud.com/">Home</a></li>
+        <li class="active"><a href="http://php-tysonggraham.rhcloud.com/assignments.html">Assignments</a></li>
+        <li><a href="https://www.spiritanimal.info/spirit-animal-quiz/">Guess My Spirit Animal</a></li>
+        <li><a href='./listUsers.php'>View All Users</a></li>
+        <li><a href='./compatibility_survey/survey.php'>Compatibility Survey</a></li>
+        <li><a href='./editProfile.php'>Edit Profile</a></li>
+        <li><a href='/logout.php'>Log Out</a></li>
+    </ul>
+  </div>
+</nav>
 	<div align="center">
 		<br /><a href='registration.php'>Registration</a>
 		<div style="width:300px; border: solid 1px #006D9C; " align="left">

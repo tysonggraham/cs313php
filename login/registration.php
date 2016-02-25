@@ -95,6 +95,22 @@
 </head>
 
 <body class="pattern1">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+      <div class="navbar-header">
+          <a class="navbar-brand" href="#"><?php echo Welcome . " " . $_SESSION['email'];?></a>
+      </div>
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="http://php-tysonggraham.rhcloud.com/">Home</a></li>
+        <li class="active"><a href="http://php-tysonggraham.rhcloud.com/assignments.html">Assignments</a></li>
+        <li><a href="https://www.spiritanimal.info/spirit-animal-quiz/">Guess My Spirit Animal</a></li>
+        <li><a href='./listUsers.php'>View All Users</a></li>
+        <li><a href='./compatibility_survey/survey.php'>Compatibility Survey</a></li>
+        <li><a href='./editProfile.php'>Edit Profile</a></li>
+        <li><a href='/logout.php'>Log Out</a></li>
+    </ul>
+  </div>
+</nav>
   <form name="reg" action="code_exec.php" onsubmit="return validateForm()" method="post">
     <table class="container" width="400" border="0" align="center" cellpadding="2" cellspacing="0">
       <tr>
