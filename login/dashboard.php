@@ -108,7 +108,8 @@ html, body {
 		directionsService.route({
 			origin: document.getElementById('start').value,
 			destination: document.getElementById('end').value,
-			travelMode: google.maps.TravelMode.DRIVING
+			travelMode: google.maps.TravelMode.DRIVING,
+			draggable: true
 
 		}, function(response, status) {
 	    if (status === google.maps.DirectionsStatus.OK) {
@@ -163,7 +164,7 @@ else
 	echo 'Bad address.';
 }
 ?>
-	<div id="floating-panel">
+	<div>
 	<b>Origin: </b>
 	<select id="start">
 		<option value="<?php echo $addr1; ?>">rexburg1</option>
