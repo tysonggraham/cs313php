@@ -116,7 +116,7 @@ html, body {
 			console.log(response);
 	    if (status === google.maps.DirectionsStatus.OK) {
 			directionsDisplay.setDirections(response);
-			$('#milesDistance').append(response.routes[0].legs[0].distance.value * 1609.34);
+			$('#milesDistance').append(response.routes[0].legs[0].distance.value / 1609.34);
 			$('#metersDistance').append(response.routes[0].legs[0].distance.value);
 	    } else {
 			window.alert('Directions request failed due to ' + status);
@@ -201,7 +201,7 @@ else
 	</select>
 	</div>
 	<div style="display:block; margin:auto; height: 500px; width:500px" id="map"></div>
-	<span id="metersDistance">Distance (Meters):</span>
-	<span id="milesDistance">Distance (Miles):</span>
+	<span id="metersDistance"><strong>Distance (Meters): </span>
+	<span id="milesDistance"><strong>Distance (Miles): </span>
 </body>
 </html>
