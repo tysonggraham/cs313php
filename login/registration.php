@@ -1,11 +1,21 @@
-<html>
+<html class="pattern1">
 <head>
   <link rel='stylesheet' href="styles.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="registrationStyles.css">
-
+<style>
+.pattern1 {
+  background: white no-repeat; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#1E90FF, #00BFFF, white) no-repeat; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#1E90FF, #00BFFF, white) no-repeat; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#1E90FF, #00BFFF, white) no-repeat; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#1E90FF, #00BFFF, white) no-repeat; /* Standard syntax (must be last) */
+  height: 100%;
+  width: 100%;
+}
+</style>
   <script type="text/javascript">
     function validateForm()
     {
@@ -84,9 +94,9 @@
   </script>
 </head>
 
-<body>
+<body class="pattern1">
   <form name="reg" action="code_exec.php" onsubmit="return validateForm()" method="post">
-    <table width="274" border="0" align="center" cellpadding="2" cellspacing="0">
+    <table class="container" width="400" border="0" align="center" cellpadding="2" cellspacing="0">
       <tr>
         <td colspan="2">
         <div align="center">
@@ -114,7 +124,7 @@
       </tr>
       <tr>
         <td><div align="right">Password:</div></td>
-        <td><input type="text" name="password" /></td>
+        <td><input type="password" name="password" /></td>
       </tr>
       <tr>
         <td><div align="right">Phone:</div></td>
