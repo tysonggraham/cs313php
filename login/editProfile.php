@@ -90,7 +90,9 @@
 
 <body class="pattern1">
   <form name="reg" action="edit_profile_exec.php" onsubmit="return validateForm()" method="post">
-    <table width="274" border="0" align="center" cellpadding="2" cellspacing="0">
+    <table width="374" border="0" align="center" cellpadding="2" cellspacing="0">
+    <col width="230">
+    <col width="144">
       <tr>
         <td colspan="2">
         <div align="center">
@@ -109,35 +111,35 @@
           </div></td>
       </tr>
       <tr>
-        <td width="95"><div align="right">First Name:</div></td>
+        <td width="95"><div align="right"><strong>First Name:</div></td>
         <td width="171"><input type="text" name="newfname" /></td>
       </tr>
       <tr>
-        <td><div align="right">Last Name:</div></td>
+        <td><div align="right"><strong>Last Name:</div></td>
         <td><input type="text" name="newlname" /></td>
       </tr>
       <tr>
-        <td><div align="right">Password:</div></td>
+        <td><div align="right"><strong>Password:</div></td>
         <td><input type="password" name="newpassword" /></td>
       </tr>
       <tr>
-        <td><div align="right">Phone:</div></td>
+        <td><div align="right"><strong>Phone:</div></td>
         <td><input type="text" name="newphone" /></td>
       </tr>
       <tr>
-        <td><div align="right">Job Name:</div></td>
+        <td><div align="right"><strong>Job Name:</div></td>
         <td><input type="text" name="newjob_name" /></td>
       </tr>
       <tr>
-        <td><div align="right">is Human:</div></td>
+        <td><div align="right"><strong>is Human:</div></td>
         <td><input type="text" name="newis_human" /></td>
       </tr>
       <tr>
-        <td><div align="right">Vote Count:</div></td>
+        <td><div align="right"><strong>Vote Count:</div></td>
         <td><input type="text" name="newvote_cnt" /></td>
       </tr>            
       <tr>
-        <td><div align="right">Address:</div></td>
+        <td><div align="right"><strong>Address:</div></td>
         <td><input type="text" name="newaddress" /></td>
       </tr>
 <!--       <tr>
