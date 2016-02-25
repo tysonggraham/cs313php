@@ -35,9 +35,10 @@ function GetDrivingDistance($lat1, $lat2, $long1, $long2)
 	curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
 	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 	$response = curl_exec($ch);
+	console.log($response);
+//	$dist = $response.routes[0].legs[0].distance.value + " meters";
 	curl_close($ch);
 	$response_a = json_decode($response, true);
-	$dist = $response_a['rows'][0]['elements'][0]['distance']['text'];
 	$time = $response_a['rows'][0]['elements'][0]['duration']['text'];
 
 	return array('distance' => $dist, 'time' => $time);
@@ -163,8 +164,7 @@ else
 	echo 'Bad address.';
 }
 ?>
-	<div style:"display:block;
-    margin:auto;">
+	<div style:"text-align:center; display:block; margin:auto;">
 	<b>Origin: </b>
 	<select id="start">
 		<option value="<?php echo $addr1; ?>">rexburg1</option>
@@ -196,7 +196,6 @@ else
 		<option value="los angeles, ca">Los Angeles</option>
 	</select>
 	</div>
-	<div style="display:block;
-    margin:auto; height: 500px; width:500px" id="map"></div>
+	<div style="display:block; margin:auto; height: 500px; width:500px" id="map"></div>
 </body>
 </html>
