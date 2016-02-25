@@ -113,6 +113,8 @@ html, body {
 			travelMode: google.maps.TravelMode.DRIVING
 
 		}, function(response, status) {
+			console.log(response);
+			console.log(response.routes[0].legs[0].distance.value + " meters")
 	    if (status === google.maps.DirectionsStatus.OK) {
 			directionsDisplay.setDirections(response);
 	    } else {
