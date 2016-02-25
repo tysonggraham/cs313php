@@ -81,7 +81,7 @@ else
 <head>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 <meta charset="utf-8">
-<title>Directions service</title>
+<title>Companion Finder Home</title>
 <style>
 html, body {
 	height: 100%;
@@ -128,7 +128,6 @@ html, body {
 		directionsService.route({
 			origin: document.getElementById('start').value,
 			destination: document.getElementById('end').value,
-		    draggable: true,
 			travelMode: google.maps.TravelMode.DRIVING
 
 		}, function(response, status) {
