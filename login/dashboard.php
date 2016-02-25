@@ -140,11 +140,23 @@ html, body {
 	}
 </script>
 </head>
-<body>
-	<br /><a href='./listUsers.php'>View All Users</a>
-	<br /><a href='./compatibility_survey/survey.php'>Compatibility Survey</a>
-	<br /><a href='./editProfile.php'>Edit Profile</a>
-	<br /><a href='/logout.php'>Log Out</a>
+<body background-image="url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/2000px-Smiley.svg.png)">
+		    <nav class="navbar navbar-inverse">
+	    	<div class="container-fluid">
+	        	<div class="navbar-header">
+	          		<a class="navbar-brand" href="#">Tyson Graham - CS 313</a>
+	        	</div>
+	    		<ul class="nav navbar-nav">
+	      			<li class="active"><a href="#">Home</a></li>
+	      			<li class="active"><a href="assignments.html">Assignments</a></li>
+	      			<li><a href="https://www.spiritanimal.info/spirit-animal-quiz/">Guess My Spirit Animal</a></li>
+	      			<li><a href='./listUsers.php'>View All Users</a></li>
+	      			<li><a href='./compatibility_survey/survey.php'>Compatibility Survey</a></li>
+	      			<li><a href='./editProfile.php'>Edit Profile</a></li>
+	      			<li><a href='/logout.php'>Log Out</a></li>
+	    		</ul>
+	    	</div>
+	    </nav>
 	<div id="floating-panel">
 	<b>Origin: </b>
 	<select id="start">
@@ -177,6 +189,7 @@ html, body {
 		<option value="los angeles, ca">Los Angeles</option>
 	</select>
 	</div>
-	<div style="margin:auto 0; height: 500px; width:500px" id="map"></div>
+	<div style="display:block;
+    margin:auto; height: 500px; width:500px" id="map"></div>
 </body>
 </html>
