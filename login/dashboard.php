@@ -133,7 +133,7 @@ html, body {
     	</div>
 		<ul class="nav navbar-nav">
   			<li class="active"><a href="http://php-tysonggraham.rhcloud.com/">Home</a></li>
-        <li class="active"><a href=http://php-tysonggraham.rhcloud.com/"assignments.html">Assignments</a></li>
+        <li class="active"><a href="http://php-tysonggraham.rhcloud.com/assignments.html">Assignments</a></li>
   			<li><a href="https://www.spiritanimal.info/spirit-animal-quiz/">Guess My Spirit Animal</a></li>
   			<li><a href='./listUsers.php'>View All Users</a></li>
   			<li><a href='./compatibility_survey/survey.php'>Compatibility Survey</a></li>
