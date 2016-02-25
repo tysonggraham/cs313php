@@ -7,11 +7,8 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <style>
-div.container { 
-}
 </head>
-
+<body>
 <div>
   <h2>Potential Companions Page</h2>
   <p>These are all of the lovely companions you can interact with. Happy hunting! You can view their bio, vote them up, vote them down, and even contact them using their emails below:</p>            
@@ -71,3 +68,4 @@ $results = $query->fetchAll(PDO::FETCH_OBJ);
   });
 </script>
 </div>
+</body>
