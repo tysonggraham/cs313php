@@ -38,7 +38,7 @@ function GetDrivingDistance($lat1, $lat2, $long1, $long2)
 	$response = curl_exec($ch);
 	curl_close($ch);
 	$response_a = json_decode($response, true);
-	print_r($response_a);
+	print_r($response_a['rows']);
 //	$dist = $response.routes[0].legs[0].distance.value + " meters";
 	$time = $response_a['rows'][0]['elements'][0]['duration']['text'];
 
