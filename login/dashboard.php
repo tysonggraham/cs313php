@@ -108,8 +108,7 @@ html, body {
 		directionsService.route({
 			origin: document.getElementById('start').value,
 			destination: document.getElementById('end').value,
-			travelMode: google.maps.TravelMode.DRIVING,
-			draggable: true
+			travelMode: google.maps.TravelMode.DRIVING
 
 		}, function(response, status) {
 	    if (status === google.maps.DirectionsStatus.OK) {
