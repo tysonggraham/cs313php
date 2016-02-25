@@ -177,6 +177,6 @@ html, body {
 		<option value="los angeles, ca">Los Angeles</option>
 	</select>
 	</div>
-	<div style="height: 1000px; width:1000px" id="map"></div>
+	<div style="margin:auto 0; height: 500px; width:500px" id="map"></div>
 </body>
 </html>
