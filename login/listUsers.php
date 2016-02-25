@@ -1,7 +1,7 @@
 <?php include("openShiftConnection.php"); ?>
 
 <!DOCTYPE html>
-<html>
+<html class="pattern1">
 <head>
   <title>Tyson Graham - CS 313</title>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -20,6 +20,23 @@
   </style>
 </head>
 <body class="pattern1">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+      <div class="navbar-header">
+          <a class="navbar-brand" href="#"><?php echo Welcome . " " . $_SESSION['email'];?></a>
+      </div>
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="assignments.html">Assignments</a></li>
+        <li><a href="https://www.spiritanimal.info/spirit-animal-quiz/">Guess My Spirit Animal</a></li>
+        <li><a href='./listUsers.php'>View All Users</a></li>
+        <li><a href='./compatibility_survey/survey.php'>Compatibility Survey</a></li>
+        <li><a href='./editProfile.php'>Edit Profile</a></li>
+        <li><a href='/logout.php'>Log Out</a></li>
+    </ul>
+  </div>
+</nav>
+
 <div>
   <h2>Potential Companions Page</h2>
   <p>These are all of the lovely companions you can interact with. Happy hunting! You can view their bio, vote them up, vote them down, and even contact them using their emails below:</p>            
