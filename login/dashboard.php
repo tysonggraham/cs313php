@@ -52,29 +52,6 @@ function parseAddress ($address) {
 
 session_start();
 echo 'Welcome '.$_SESSION['email'] . "\r\n";;
-$addr1 = "1521 1st Ave, Seattle, WA";
-$addr2 = "1301 Alaskan Way, Seattle, WA";
-
-$parts1 = parseAddress($addr1);
-$parts2 = parseAddress($addr2);
-
-// $coord1 = get_coordinates("Seattle", "1521 1st Ave", "Washington");
-
-$coord1 = get_coordinates($parts1[1], $parts1[0], $parts1[2]);
-$coord2 = get_coordinates($parts2[1], $parts2[0], $parts2[2]);
-
-echo $parts1[1] . " - " . $parts1[0] . " - " . $parts1[2] . "<br>";
-echo $parts2[1] . " - " . $parts2[0] . " - " . $parts2[2] . "<br>";
-
-if ( $coord1 && $coord2 )
-{
-	$dist = GetDrivingDistance($coord1['lat'], $coord2['lat'], $coord1['long'], $coord2['long']);
-	echo 'Distance: <b>'.$dist['distance'].'</b><br>Travel time duration: <b>'.$dist['time'].'</b>';
-}
-else
-{
-	echo 'Bad address.';
-}
 ?>
 <!DOCTYPE html>
 <html>
@@ -144,22 +121,48 @@ html, body {
 </script>
 </head>
 <body background-image="url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/2000px-Smiley.svg.png)">
-		    <nav class="navbar navbar-inverse">
-	    	<div class="container-fluid">
-	        	<div class="navbar-header">
-	          		<a class="navbar-brand" href="#">Tyson Graham - CS 313</a>
-	        	</div>
-	    		<ul class="nav navbar-nav">
-	      			<li class="active"><a href="#">Home</a></li>
-	      			<li class="active"><a href="assignments.html">Assignments</a></li>
-	      			<li><a href="https://www.spiritanimal.info/spirit-animal-quiz/">Guess My Spirit Animal</a></li>
-	      			<li><a href='./listUsers.php'>View All Users</a></li>
-	      			<li><a href='./compatibility_survey/survey.php'>Compatibility Survey</a></li>
-	      			<li><a href='./editProfile.php'>Edit Profile</a></li>
-	      			<li><a href='/logout.php'>Log Out</a></li>
-	    		</ul>
-	    	</div>
-	    </nav>
+    <nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+    	<div class="navbar-header">
+      		<a class="navbar-brand" href="#">Tyson Graham - CS 313</a>
+    	</div>
+		<ul class="nav navbar-nav">
+  			<li class="active"><a href="#">Home</a></li>
+  			<li class="active"><a href="assignments.html">Assignments</a></li>
+  			<li><a href="https://www.spiritanimal.info/spirit-animal-quiz/">Guess My Spirit Animal</a></li>
+  			<li><a href='./listUsers.php'>View All Users</a></li>
+  			<li><a href='./compatibility_survey/survey.php'>Compatibility Survey</a></li>
+  			<li><a href='./editProfile.php'>Edit Profile</a></li>
+  			<li><a href='/logout.php'>Log Out</a></li>
+		</ul>
+	</div>
+</nav>
+
+<?php
+$addr1 = "1521 1st Ave, Seattle, WA";
+$addr2 = "1301 Alaskan Way, Seattle, WA";
+
+$parts1 = parseAddress($addr1);
+$parts2 = parseAddress($addr2);
+
+// $coord1 = get_coordinates("Seattle", "1521 1st Ave", "Washington");
+
+$coord1 = get_coordinates($parts1[1], $parts1[0], $parts1[2]);
+$coord2 = get_coordinates($parts2[1], $parts2[0], $parts2[2]);
+
+echo $parts1[1] . " - " . $parts1[0] . " - " . $parts1[2] . "<br>";
+echo $parts2[1] . " - " . $parts2[0] . " - " . $parts2[2] . "<br>";
+
+if ( $coord1 && $coord2 )
+{
+	$dist = GetDrivingDistance($coord1['lat'], $coord2['lat'], $coord1['long'], $coord2['long']);
+	echo 'Distance: <b>'.$dist['distance'].'</b><br>Travel time duration: <b>'.$dist['time'].'</b>';
+}
+else
+{
+	echo 'Bad address.';
+}
+?>
 	<div id="floating-panel">
 	<b>Origin: </b>
 	<select id="start">
