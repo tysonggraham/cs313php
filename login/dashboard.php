@@ -35,10 +35,10 @@ function GetDrivingDistance($lat1, $lat2, $long1, $long2)
 	curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
 	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 	$response = curl_exec($ch);
-	console.log($response);
-//	$dist = $response.routes[0].legs[0].distance.value + " meters";
 	curl_close($ch);
 	$response_a = json_decode($response, true);
+	console.log($response_a);
+//	$dist = $response.routes[0].legs[0].distance.value + " meters";
 	$time = $response_a['rows'][0]['elements'][0]['duration']['text'];
 
 	return array('distance' => $dist, 'time' => $time);
