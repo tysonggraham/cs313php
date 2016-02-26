@@ -32,7 +32,7 @@
 
       if ((a==null || a=="") && (b==null || b=="") && (c==null || c=="") && (d==null || d=="") && (e==null || e=="") && (f==null || f==""))
       {
-        alert("All Field must be filled out");
+        alert("All Fields must be filled out");
         return false;
       }
       if (a==null || a=="")
@@ -67,7 +67,7 @@
       }
       if (h==null || h=="")
       {
-        alert("is human must be filled out");
+        $('#is_human').html("is human must be filled out");
         return false;
       }
       if (i==null || i=="")
@@ -132,39 +132,39 @@
       </tr>
       <tr>
         <td width="95"><div align="right">First Name:</div></td>
-        <td width="171"><input type="text" name="fname" /></td>
+        <td width="171"><input id="fname" type="text" name="fname" /></td>
       </tr>
       <tr>
         <td><div align="right">Last Name:</div></td>
-        <td><input type="text" name="lname" /></td>
+        <td><input id="lname" type="text" name="lname" /></td>
       </tr>
       <tr>
         <td><div align="right">Password:</div></td>
-        <td><input type="password" name="password" /></td>
+        <td><input id="password" type="password" name="password" /></td>
       </tr>
       <tr>
         <td><div align="right">Phone:</div></td>
-        <td><input type="text" name="phone" /></td>
+        <td><input id="phone" type="text" name="phone" /></td>
       </tr>
       <tr>
         <td><div align="right">email:</div></td>
-        <td><input type="text" name="email" /></td>
+        <td><input id="email" type="text" name="email" /></td>
       </tr>
       <tr>
         <td><div align="right">Job Name:</div></td>
-        <td><input type="text" name="job_name" /></td>
+        <td><input id="job_name" type="text" name="job_name" /></td>
       </tr>
       <tr>
         <td><div align="right">is Human:</div></td>
-        <td><input type="text" name="is_human" /></td>
+        <td><input id="is_human" type="text" name="is_human" /></td>
       </tr>
       <tr>
         <td><div align="right">Vote Count:</div></td>
-        <td><input type="text" name="vote_cnt" /></td>
+        <td><input id="vote_cnt" type="text" name="vote_cnt" /></td>
       </tr>            
       <tr>
         <td><div align="right">Address:</div></td>
-        <td><input type="text" name="address" /></td>
+        <td><input type="text" id="address" name="address" /></td>
       </tr>
 <!--       <tr>
 

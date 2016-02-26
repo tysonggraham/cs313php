@@ -83,7 +83,7 @@ include("openShiftConnection.php");
         <li><a href='./listUsers.php'>View All Users</a></li>
         <li><a href='./compatibility_survey/survey.php'>Compatibility Survey</a></li>
         <li><a href='./editProfile.php'>Edit Profile</a></li>
-        <li><a href='/logout.php'>Log Out</a></li>
+        <li><a href='./logout.php'>Log Out</a></li>
     </ul>
   </div>
 </nav>
