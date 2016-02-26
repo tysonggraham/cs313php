@@ -67,8 +67,9 @@
       }
       if (h==null || h=="")
       {
+        alert("is_human name must be filled out");
         $('#is_human').attr("placeholder", "Please enter 0 for animal, 1 for human");
-        $('#is_human')..css("color","red");
+        $('#is_human').css("color","red");
         return false;
       }
       if (i==null || i=="")
