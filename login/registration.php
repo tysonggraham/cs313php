@@ -20,23 +20,23 @@
     function validateForm()
     {
       var a=document.forms["reg"]["fname"].value;
-      console.log(a.text());
+      console.log(a.val());
       var b=document.forms["reg"]["lname"].value;
-      console.log(b.text());
+      console.log(b.val());
       var c=document.forms["reg"]["password"].value;
-      console.log(c.text());
+      console.log(c.val());
       var d=document.forms["reg"]["phone"].value;
-      console.log(d.text());
+      console.log(d.val());
       var f=document.forms["reg"]["email"].value;
-      console.log(f.text());
+      console.log(f.val());
       var g=document.forms["reg"]["job_name"].value;
-      console.log(g.text());
+      console.log(g.val());
       var h=document.forms["reg"]["is_human"].value;
-      console.log(h.text());
+      console.log(h.val());
       var i=document.forms["reg"]["vote_cnt"].value;
-      console.log(i.text());
+      console.log(i.val());
       var j=document.forms["reg"]["address"].value;
-      console.log(j.text());
+      console.log(j.val());
       // var k=document.forms["reg"]["pic"].value;
 
       if ((a=="") && (b=="") && (c=="") && (d=="") && (e=="") && (f==""))
