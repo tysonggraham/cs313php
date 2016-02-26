@@ -39,7 +39,7 @@
       console.log(j.text());
       // var k=document.forms["reg"]["pic"].value;
 
-      if ((|| a=="")|| (b=="") && (c==null || c=="") && (d=="") && (e=="") && (f==""))
+      if ((a=="") && (b=="") && (c=="") && (d=="") && (e=="") && (f==""))
       {
         alert("All Fields must be filled out");
         return false;
