@@ -38,8 +38,8 @@
       var j=document.forms["reg"]["address"].value;
       console.log(j);
       // var k=document.forms["reg"]["pic"].value;
-
-      if ((a=="") && (b=="") && (c=="") && (d=="") && (e=="") && (f==""))
+      debugger;
+      if ((a=="") && (b=="") && (c=="") && (d=="") && (f=="") && (g=="")&& (h=="")&& (i=="")&& (j==""))
       {
         alert("All Fields must be filled out");
         return false;
