@@ -20,17 +20,26 @@
     function validateForm()
     {
       var a=document.forms["reg"]["fname"].value;
+      console.log(a.text());
       var b=document.forms["reg"]["lname"].value;
+      console.log(b.text());
       var c=document.forms["reg"]["password"].value;
+      console.log(c.text());
       var d=document.forms["reg"]["phone"].value;
+      console.log(d.text());
       var f=document.forms["reg"]["email"].value;
+      console.log(f.text());
       var g=document.forms["reg"]["job_name"].value;
+      console.log(g.text());
       var h=document.forms["reg"]["is_human"].value;
+      console.log(h.text());
       var i=document.forms["reg"]["vote_cnt"].value;
+      console.log(i.text());
       var j=document.forms["reg"]["address"].value;
+      console.log(j.text());
       // var k=document.forms["reg"]["pic"].value;
 
-      if ((a==null || a=="") && (b==null || b=="") && (c==null || c=="") && (d==null || d=="") && (e==null || e=="") && (f==null || f==""))
+      if ((|| a=="")|| (b=="") && (c==null || c=="") && (d=="") && (e=="") && (f==""))
       {
         alert("All Fields must be filled out");
         return false;
